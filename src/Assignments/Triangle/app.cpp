@@ -139,7 +139,7 @@ void SimpleShapeApplication::init() {
     pyramid->vertex_attrib_pointer(1, 2, GL_FLOAT, 5 * sizeof(vertices[0]), 3 * sizeof(GLfloat));
 
     // Colours based on pyramid from CameraMovement assignment, not Textures (pink > grey)
-    pyramid->add_submesh(0, 6, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 1.f), 1.f)));  // base == 2 triangles == 6 vertices
+    pyramid->add_submesh(0, 6, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 1.f, 1.f), 1.f)));  // base == 2 triangles == 6 vertices
     pyramid->add_submesh(6, 9, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));  // side == 1 triangle == 3 vertices
     pyramid->add_submesh(9, 12, new xe::ColorMaterial(glm::vec4(glm::vec3(0.f, 1.f, 0.f), 1.f)));
     pyramid->add_submesh(12, 15, new xe::ColorMaterial(glm::vec4(glm::vec3(0.f, 0.f, 1.f), 1.f)));
@@ -155,7 +155,7 @@ void SimpleShapeApplication::init() {
 
     // Setting the background color of the rendering window,
     // I suggest not to use white or black for better debuging.
-    glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
+    glClearColor(1.0f, 1.0f, 0.95f, 1.0f);
 
     // This setups an OpenGL vieport of the size of the whole rendering window.
     glViewport(0, 0, w, h);
