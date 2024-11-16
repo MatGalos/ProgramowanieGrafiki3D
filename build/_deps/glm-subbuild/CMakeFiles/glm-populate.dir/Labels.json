@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/CMakeFiles/glm-populate.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/CMakeFiles/glm-populate.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update.rule"
 		}
 	],
 	"target" : 

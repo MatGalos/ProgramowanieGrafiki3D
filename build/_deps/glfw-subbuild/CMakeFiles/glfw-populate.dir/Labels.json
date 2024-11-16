@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test.rule"
 		},
 		{
-			"file" : "/Users/kprzystalski/UJ/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update.rule"
+			"file" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update.rule"
 		}
 	],
 	"target" : 

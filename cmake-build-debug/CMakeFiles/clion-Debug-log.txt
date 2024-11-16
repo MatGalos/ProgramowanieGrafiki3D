@@ -1,26 +1,13 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/kprzystalski/UJ/3d -B /Users/kprzystalski/UJ/3d/cmake-build-debug
--- Including Cocoa support
--- GLM: Version 0.9.9.9
--- Build spdlog: 1.11.0
--- Build type: Debug
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/House does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Colors does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Indices does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Uniforms does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/PVM does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Pyramid does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Resizing does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Zoom does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/CameraMovement does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Meshes does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Materials does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/MeshesMaterials does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/SceneGraph does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Textures does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/Phong does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/PBR does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/MultipleLights does not exists.
-Warning: directory /Users/kprzystalski/UJ/3d/src/Assignments/NormalMaps does not exists.
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/kprzystalski/UJ/3d/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie" -B "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/cmake-build-debug"
+CMake Error: The current CMakeCache.txt directory /Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/cmake-build-debug/_deps/glfw-subbuild/CMakeCache.txt is different than the directory /Users/kprzystalski/UJ/3d/cmake-build-debug/_deps/glfw-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1702 (message):
+  CMake step for glfw failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1854:EVAL:2 (__FetchContent_directPopulate)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1854 (cmake_language)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:2081 (FetchContent_Populate)
+  CMakeLists.txt:54 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!

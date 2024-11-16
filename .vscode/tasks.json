@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	 {
+	  "type": "cppbuild",
+	  "label": "C/C++: clang++ build active file",
+	  "command": "/usr/bin/clang++",
+	  "args": [
+	   "-std=c++17",
+	   "-fdiagnostics-color=always",
+	   "-Wall",
+	   "-g",
+	   "${workspaceFolder}/src/Application/application.h",
+	   "-I${workspaceFolder}/dependencies/include",
+	   "-L${workspaceFolder}/dependencies/library",
+	  ],
+	  "options": {
+	   "cwd": "${fileDirname}"
+	  },
+	  "problemMatcher": ["$gcc"],
+	  "group": {
+	   "kind": "build",
+	   "isDefault": true
+	  },
+	  "detail": "compiler: /usr/bin/clang++"
+	 }
+	]
+   }
