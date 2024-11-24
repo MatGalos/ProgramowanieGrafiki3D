@@ -491,9 +491,9 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/clean:
 # Target rules for target src/Application/CMakeFiles/application.dir
 
 # All Build rule for target.
-src/Application/CMakeFiles/application.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Application/CMakeFiles/application.dir/all: CMakeFiles/glad.dir/all
 src/Application/CMakeFiles/application.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Application/CMakeFiles/application.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Application/CMakeFiles/application.dir/build.make src/Application/CMakeFiles/application.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Application/CMakeFiles/application.dir/build.make src/Application/CMakeFiles/application.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=4,5,6,7 "Built target application"
@@ -524,10 +524,10 @@ src/Application/CMakeFiles/application.dir/clean:
 # Target rules for target src/ObjectReader/CMakeFiles/objreader.dir
 
 # All Build rule for target.
-src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
-src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: CMakeFiles/glad.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
+src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ObjectReader/CMakeFiles/objreader.dir/build.make src/ObjectReader/CMakeFiles/objreader.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ObjectReader/CMakeFiles/objreader.dir/build.make src/ObjectReader/CMakeFiles/objreader.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=36,37 "Built target objreader"
@@ -558,10 +558,10 @@ src/ObjectReader/CMakeFiles/objreader.dir/clean:
 # Target rules for target src/XeEngine/CMakeFiles/xe-engine.dir
 
 # All Build rule for target.
-src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
-src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: CMakeFiles/glad.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
+src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: src/ObjectReader/CMakeFiles/objreader.dir/all
 	$(MAKE) $(MAKESILENT) -f src/XeEngine/CMakeFiles/xe-engine.dir/build.make src/XeEngine/CMakeFiles/xe-engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/XeEngine/CMakeFiles/xe-engine.dir/build.make src/XeEngine/CMakeFiles/xe-engine.dir/build
@@ -593,9 +593,9 @@ src/XeEngine/CMakeFiles/xe-engine.dir/clean:
 # Target rules for target src/Engine/CMakeFiles/engine.dir
 
 # All Build rule for target.
-src/Engine/CMakeFiles/engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Engine/CMakeFiles/engine.dir/all: CMakeFiles/glad.dir/all
 src/Engine/CMakeFiles/engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Engine/CMakeFiles/engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Engine/CMakeFiles/engine.dir/build.make src/Engine/CMakeFiles/engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Engine/CMakeFiles/engine.dir/build.make src/Engine/CMakeFiles/engine.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=8,9,10 "Built target engine"
@@ -626,10 +626,10 @@ src/Engine/CMakeFiles/engine.dir/clean:
 # Target rules for target src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir
 
 # All Build rule for target.
-src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
-src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
+src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: src/Application/CMakeFiles/application.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: src/ObjectReader/CMakeFiles/objreader.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: src/XeEngine/CMakeFiles/xe-engine.dir/all
