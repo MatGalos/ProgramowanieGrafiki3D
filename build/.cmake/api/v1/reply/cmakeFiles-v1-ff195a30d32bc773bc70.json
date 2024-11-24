@@ -455,6 +455,9 @@
 		},
 		{
 			"path" : "src/Assignments/Triangle/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/House/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

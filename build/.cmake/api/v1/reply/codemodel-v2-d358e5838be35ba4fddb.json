@@ -15,7 +15,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -27,7 +28,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -37,7 +38,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-55e673b17524109ff83b.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-531be5ae95439364c650.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -47,13 +48,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-fbc5996a4b9e6469c2ba.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-a1e5e23784db1017b872.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -63,8 +64,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						4,
-						9
+						5,
+						10
 					]
 				},
 				{
@@ -94,7 +95,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -109,7 +110,7 @@
 					"source" : "build/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -124,7 +125,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -139,7 +140,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -154,7 +155,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -169,7 +170,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -182,6 +183,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 8,
 					"source" : "src/Assignments/Triangle",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/Assignments/House",
+					"jsonFile" : "directory-src.Assignments.House-Release-0fa79544065fe2e55039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "src/Assignments/House",
 					"targetIndexes" : 
 					[
 						0
@@ -201,7 +217,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					],
 					"directoryIndexes" : 
 					[
@@ -210,7 +227,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -223,9 +240,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4,
-						8,
-						9
+						5,
+						9,
+						10
 					]
 				},
 				{
@@ -238,7 +255,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -250,7 +267,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -262,7 +279,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -274,7 +291,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -286,7 +303,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -298,7 +315,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -310,12 +327,31 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "House",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						0
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 11,
+					"id" : "House::@a57c938c6b5fe80120df",
+					"jsonFile" : "target-House-Release-c7056fddc748bb717a94.json",
+					"name" : "House",
+					"projectIndex" : 9
+				},
 				{
 					"directoryIndex" : 10,
 					"id" : "MeshesMaterials::@ee163803f4c0a4b34178",
