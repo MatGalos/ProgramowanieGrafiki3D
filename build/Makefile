@@ -304,6 +304,19 @@ MeshesMaterials/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build
 .PHONY : MeshesMaterials/fast
 
+#=============================================================================
+# Target rules for targets named House
+
+# Build rule for target.
+House: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 House
+.PHONY : House
+
+# fast build rule for target.
+House/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/House/CMakeFiles/House.dir/build.make src/Assignments/House/CMakeFiles/House.dir/build
+.PHONY : House/fast
+
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
 
@@ -342,6 +355,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... House"
 	@echo "... MeshesMaterials"
 	@echo "... application"
 	@echo "... engine"

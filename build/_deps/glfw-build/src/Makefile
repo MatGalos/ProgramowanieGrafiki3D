@@ -197,22 +197,6 @@ cocoa_init.m.o:
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o
 .PHONY : cocoa_init.m.o
 
-cocoa_init.i: cocoa_init.m.i
-.PHONY : cocoa_init.i
-
-# target to preprocess a source file
-cocoa_init.m.i:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.i
-.PHONY : cocoa_init.m.i
-
-cocoa_init.s: cocoa_init.m.s
-.PHONY : cocoa_init.s
-
-# target to generate assembly for a file
-cocoa_init.m.s:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.s
-.PHONY : cocoa_init.m.s
-
 cocoa_joystick.o: cocoa_joystick.m.o
 .PHONY : cocoa_joystick.o
 
@@ -221,22 +205,6 @@ cocoa_joystick.m.o:
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
 .PHONY : cocoa_joystick.m.o
 
-cocoa_joystick.i: cocoa_joystick.m.i
-.PHONY : cocoa_joystick.i
-
-# target to preprocess a source file
-cocoa_joystick.m.i:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.i
-.PHONY : cocoa_joystick.m.i
-
-cocoa_joystick.s: cocoa_joystick.m.s
-.PHONY : cocoa_joystick.s
-
-# target to generate assembly for a file
-cocoa_joystick.m.s:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.s
-.PHONY : cocoa_joystick.m.s
-
 cocoa_monitor.o: cocoa_monitor.m.o
 .PHONY : cocoa_monitor.o
 
@@ -244,22 +212,6 @@ cocoa_monitor.o: cocoa_monitor.m.o
 cocoa_monitor.m.o:
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
 .PHONY : cocoa_monitor.m.o
-
-cocoa_monitor.i: cocoa_monitor.m.i
-.PHONY : cocoa_monitor.i
-
-# target to preprocess a source file
-cocoa_monitor.m.i:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i
-.PHONY : cocoa_monitor.m.i
-
-cocoa_monitor.s: cocoa_monitor.m.s
-.PHONY : cocoa_monitor.s
-
-# target to generate assembly for a file
-cocoa_monitor.m.s:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s
-.PHONY : cocoa_monitor.m.s
 
 cocoa_time.o: cocoa_time.c.o
 .PHONY : cocoa_time.o
@@ -292,22 +244,6 @@ cocoa_window.o: cocoa_window.m.o
 cocoa_window.m.o:
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o
 .PHONY : cocoa_window.m.o
-
-cocoa_window.i: cocoa_window.m.i
-.PHONY : cocoa_window.i
-
-# target to preprocess a source file
-cocoa_window.m.i:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.i
-.PHONY : cocoa_window.m.i
-
-cocoa_window.s: cocoa_window.m.s
-.PHONY : cocoa_window.s
-
-# target to generate assembly for a file
-cocoa_window.m.s:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.s
-.PHONY : cocoa_window.m.s
 
 context.o: context.c.o
 .PHONY : context.o
@@ -436,22 +372,6 @@ nsgl_context.o: nsgl_context.m.o
 nsgl_context.m.o:
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o
 .PHONY : nsgl_context.m.o
-
-nsgl_context.i: nsgl_context.m.i
-.PHONY : nsgl_context.i
-
-# target to preprocess a source file
-nsgl_context.m.i:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.i
-.PHONY : nsgl_context.m.i
-
-nsgl_context.s: nsgl_context.m.s
-.PHONY : nsgl_context.s
-
-# target to generate assembly for a file
-nsgl_context.m.s:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.s
-.PHONY : nsgl_context.m.s
 
 null_init.o: null_init.c.o
 .PHONY : null_init.o
@@ -708,20 +628,12 @@ help:
 	@echo "... update_mappings"
 	@echo "... glfw"
 	@echo "... cocoa_init.o"
-	@echo "... cocoa_init.i"
-	@echo "... cocoa_init.s"
 	@echo "... cocoa_joystick.o"
-	@echo "... cocoa_joystick.i"
-	@echo "... cocoa_joystick.s"
 	@echo "... cocoa_monitor.o"
-	@echo "... cocoa_monitor.i"
-	@echo "... cocoa_monitor.s"
 	@echo "... cocoa_time.o"
 	@echo "... cocoa_time.i"
 	@echo "... cocoa_time.s"
 	@echo "... cocoa_window.o"
-	@echo "... cocoa_window.i"
-	@echo "... cocoa_window.s"
 	@echo "... context.o"
 	@echo "... context.i"
 	@echo "... context.s"
@@ -738,8 +650,6 @@ help:
 	@echo "... monitor.i"
 	@echo "... monitor.s"
 	@echo "... nsgl_context.o"
-	@echo "... nsgl_context.i"
-	@echo "... nsgl_context.s"
 	@echo "... null_init.o"
 	@echo "... null_init.i"
 	@echo "... null_init.s"

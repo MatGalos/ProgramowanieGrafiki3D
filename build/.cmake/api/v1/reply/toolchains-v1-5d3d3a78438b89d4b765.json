@@ -84,6 +84,14 @@
 				"cxxm",
 				"c++m"
 			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "/Library/Developer/CommandLineTools/usr/bin/cc"
+			},
+			"language" : "OBJC"
 		}
 	],
 	"version" : 
