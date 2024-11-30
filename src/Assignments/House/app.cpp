@@ -36,39 +36,73 @@ void SimpleShapeApplication::init() {
     glEnable(GL_CULL_FACE); 
 
     std::vector<GLushort> indices = {
-        0, 1, 2,  // first base triangle
-        0, 2, 3,
+        8, 9, 10,  // first base triangle
+        9, 10, 11,
+        1, 0, 8,
+        1, 9, 8,  // first try to render square
         1, 0, 4,  // first (front) side triangle
         0, 3, 5,
         3, 2, 6,
         2, 1, 7,
+        0, 8, 10,
+        0, 3, 10,
+        3, 10, 11,
+        3, 2, 11,
+        2, 11, 9,
+        2, 1, 9
+
     };
+
+    //House Zadanie 1. zmiana w x,y  powoduje przesunięcie punktu o podany vektor i zmiana jego pozycji na 
+    //w przestrzeni 2D (wartość dodatnia to prawa strona ekranu, wartość ujemna to lewa strona ekranu)
+    // powyzej 1 
     
     // A vector containing the x,y,z vertex coordinates + texture coords
     std::vector<GLfloat> vertices = {
+        //bottom right point of front triangle
         0.5f, -0.5f, 0.5f,
         0.5f, 0.809f,
         
+        //bottom left point of front triangle
         -0.5f, -0.5f, 0.5f,
         0.191f, 0.5f,
 
+        //bottom left point of triangle on the left
         -0.5f, -0.5f, -0.5f,
         0.5f, 0.191f,
 
+        //bottom right point of triangle on the right
         0.5f, -0.5f, -0.5f,
         0.809f, 0.5f,
 
+        //top point of the triangle in front
         0.0f, 0.5f, 0.0f,
         0.f, 1.f,
 
+        //top point of the triangle in
         0.0f, 0.5f, 0.0f,
         1.f, 1.f,
 
+        //top point of the triangle on the back
         0.0f, 0.5f, 0.0f,
         1.f, 0.f,
 
+        //top point of the triangle on the left
         0.0f, 0.5f, 0.0f,
         0.f, 0.f,
+
+        //bottom right point of front triangle
+        0.5f,  -1.0, 0.5f,
+        1.0f, 0.5f,
+        //bottom right point of front triangle
+        -0.5f,  -1.0, 0.5f,
+        1.0f, 0.5f,
+        //bottom right point of front triangle
+        0.5f,  -1.0, -0.5f,
+        1.0f, 0.5f,
+
+        -0.5f,  -1.0, -0.5f,
+        1.0f, 0.5f,
     };
 
     // PVM uniform
@@ -140,10 +174,14 @@ void SimpleShapeApplication::init() {
 
     // Colours based on pyramid from CameraMovement assignment, not Textures (pink > grey)
     pyramid->add_submesh(0, 6, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));  // base == 2 triangles == 6 vertices
-    pyramid->add_submesh(6, 9, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));  // side == 1 triangle == 3 vertices
-    pyramid->add_submesh(9, 12, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
+    pyramid->add_submesh(6, 12, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
     pyramid->add_submesh(12, 15, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
     pyramid->add_submesh(15, 18, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
+    pyramid->add_submesh(18, 21, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
+    pyramid->add_submesh(21, 24, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
+    pyramid->add_submesh(24, 30, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
+    pyramid->add_submesh(30, 36, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
+    pyramid->add_submesh(36, 42, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));
 
     // Using texture
     // for (int i = 0; i < indices.size(); i += 3)

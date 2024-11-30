@@ -38,10 +38,10 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-531be5ae95439364c650.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-5f3a85a59f5b8e39d246.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.4"
+						"string" : "3.16"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
@@ -54,10 +54,10 @@
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-a1e5e23784db1017b872.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-7751bb5a78aa89208e93.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.4"
+						"string" : "3.16"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
@@ -348,14 +348,14 @@
 				{
 					"directoryIndex" : 11,
 					"id" : "House::@a57c938c6b5fe80120df",
-					"jsonFile" : "target-House-Release-c7056fddc748bb717a94.json",
+					"jsonFile" : "target-House-Release-af58e2774ca2e4b5922d.json",
 					"name" : "House",
 					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 10,
 					"id" : "MeshesMaterials::@ee163803f4c0a4b34178",
-					"jsonFile" : "target-MeshesMaterials-Release-06d66cb86fd7704c0764.json",
+					"jsonFile" : "target-MeshesMaterials-Release-a17350a0901afc9b8a9b.json",
 					"name" : "MeshesMaterials",
 					"projectIndex" : 8
 				},
@@ -383,7 +383,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@fa9f4482d3a2b070f206",
-					"jsonFile" : "target-glfw-Release-39db7dd4088531b77f75.json",
+					"jsonFile" : "target-glfw-Release-879db369d91daa72009f.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -411,7 +411,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "uninstall::@369fad943889a5ec39c8",
-					"jsonFile" : "target-uninstall-Release-41dd199b2bfc6d5e5a0e.json",
+					"jsonFile" : "target-uninstall-Release-af6cb0cd149520ec73ce.json",
 					"name" : "uninstall",
 					"projectIndex" : 1
 				},

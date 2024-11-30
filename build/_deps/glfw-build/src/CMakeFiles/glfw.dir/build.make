@@ -299,72 +299,72 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_thread.c.s: cmake_force
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/flags.make
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o: _deps/glfw-src/src/cocoa_init.m
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o -MF CMakeFiles/glfw.dir/cocoa_init.m.o.d -o CMakeFiles/glfw.dir/cocoa_init.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_init.m"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building OBJC object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o -MF CMakeFiles/glfw.dir/cocoa_init.m.o.d -o CMakeFiles/glfw.dir/cocoa_init.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_init.m"
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_init.m.i"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_init.m" > CMakeFiles/glfw.dir/cocoa_init.m.i
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJC source to CMakeFiles/glfw.dir/cocoa_init.m.i"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_init.m" > CMakeFiles/glfw.dir/cocoa_init.m.i
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_init.m.s"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_init.m" -o CMakeFiles/glfw.dir/cocoa_init.m.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJC source to assembly CMakeFiles/glfw.dir/cocoa_init.m.s"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_init.m" -o CMakeFiles/glfw.dir/cocoa_init.m.s
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/flags.make
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: _deps/glfw-src/src/cocoa_joystick.m
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o -MF CMakeFiles/glfw.dir/cocoa_joystick.m.o.d -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_joystick.m"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building OBJC object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o -MF CMakeFiles/glfw.dir/cocoa_joystick.m.o.d -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_joystick.m"
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_joystick.m.i"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_joystick.m" > CMakeFiles/glfw.dir/cocoa_joystick.m.i
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJC source to CMakeFiles/glfw.dir/cocoa_joystick.m.i"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_joystick.m" > CMakeFiles/glfw.dir/cocoa_joystick.m.i
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_joystick.m.s"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_joystick.m" -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJC source to assembly CMakeFiles/glfw.dir/cocoa_joystick.m.s"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_joystick.m" -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/flags.make
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: _deps/glfw-src/src/cocoa_monitor.m
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o -MF CMakeFiles/glfw.dir/cocoa_monitor.m.o.d -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_monitor.m"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building OBJC object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o -MF CMakeFiles/glfw.dir/cocoa_monitor.m.o.d -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_monitor.m"
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_monitor.m.i"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_monitor.m" > CMakeFiles/glfw.dir/cocoa_monitor.m.i
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJC source to CMakeFiles/glfw.dir/cocoa_monitor.m.i"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_monitor.m" > CMakeFiles/glfw.dir/cocoa_monitor.m.i
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_monitor.m.s"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_monitor.m" -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJC source to assembly CMakeFiles/glfw.dir/cocoa_monitor.m.s"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_monitor.m" -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/flags.make
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: _deps/glfw-src/src/cocoa_window.m
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o -MF CMakeFiles/glfw.dir/cocoa_window.m.o.d -o CMakeFiles/glfw.dir/cocoa_window.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_window.m"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building OBJC object _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o -MF CMakeFiles/glfw.dir/cocoa_window.m.o.d -o CMakeFiles/glfw.dir/cocoa_window.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_window.m"
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_window.m.i"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_window.m" > CMakeFiles/glfw.dir/cocoa_window.m.i
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJC source to CMakeFiles/glfw.dir/cocoa_window.m.i"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_window.m" > CMakeFiles/glfw.dir/cocoa_window.m.i
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_window.m.s"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_window.m" -o CMakeFiles/glfw.dir/cocoa_window.m.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJC source to assembly CMakeFiles/glfw.dir/cocoa_window.m.s"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/cocoa_window.m" -o CMakeFiles/glfw.dir/cocoa_window.m.s
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/flags.make
 _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o: _deps/glfw-src/src/nsgl_context.m
 _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o: _deps/glfw-build/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o -MF CMakeFiles/glfw.dir/nsgl_context.m.o.d -o CMakeFiles/glfw.dir/nsgl_context.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/nsgl_context.m"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building OBJC object _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS) -MD -MT _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o -MF CMakeFiles/glfw.dir/nsgl_context.m.o.d -o CMakeFiles/glfw.dir/nsgl_context.m.o -c "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/nsgl_context.m"
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/nsgl_context.m.i"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/nsgl_context.m" > CMakeFiles/glfw.dir/nsgl_context.m.i
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJC source to CMakeFiles/glfw.dir/nsgl_context.m.i"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -E "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/nsgl_context.m" > CMakeFiles/glfw.dir/nsgl_context.m.i
 
 _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/nsgl_context.m.s"
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/nsgl_context.m" -o CMakeFiles/glfw.dir/nsgl_context.m.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJC source to assembly CMakeFiles/glfw.dir/nsgl_context.m.s"
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src" && /Library/Developer/CommandLineTools/usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) $(OBJC_FLAGS) -S "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src/nsgl_context.m" -o CMakeFiles/glfw.dir/nsgl_context.m.s
 
 # Object files for target glfw
 glfw_OBJECTS = \

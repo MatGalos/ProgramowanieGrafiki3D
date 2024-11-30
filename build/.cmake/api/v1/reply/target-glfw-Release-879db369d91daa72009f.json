@@ -40,13 +40,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 363,
+				"line" : 357,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 257,
+				"line" : 251,
 				"parent" : 0
 			},
 			{
@@ -79,7 +79,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 33,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -103,19 +103,19 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 132,
+				"line" : 133,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 135,
+				"line" : 136,
 				"parent" : 0
 			},
 			{
 				"command" : 7,
 				"file" : 0,
-				"line" : 122,
+				"line" : 123,
 				"parent" : 0
 			},
 			{
@@ -127,7 +127,7 @@
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			}
 		]
@@ -221,7 +221,81 @@
 				19,
 				21,
 				23,
-				24,
+				24
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=c99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "MAJOR=4"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MINOR=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ROOT_DIR=\"/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "XE_DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_GLFW_COCOA"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/3rdParty"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/3rdParty/glad/glad_4_1/glad/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-src/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/_deps/glfw-build/src"
+				}
+			],
+			"language" : "OBJC",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
 				27,
 				28,
 				29,
@@ -458,31 +532,31 @@
 		},
 		{
 			"backtrace" : 17,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "build/_deps/glfw-src/src/cocoa_init.m",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 17,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "build/_deps/glfw-src/src/cocoa_joystick.m",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 17,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "build/_deps/glfw-src/src/cocoa_monitor.m",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 17,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "build/_deps/glfw-src/src/cocoa_window.m",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 17,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "build/_deps/glfw-src/src/nsgl_context.m",
 			"sourceGroupIndex" : 1
 		}
