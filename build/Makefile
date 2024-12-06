@@ -317,6 +317,19 @@ House/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/House/CMakeFiles/House.dir/build.make src/Assignments/House/CMakeFiles/House.dir/build
 .PHONY : House/fast
 
+#=============================================================================
+# Target rules for targets named Colors
+
+# Build rule for target.
+Colors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Colors
+.PHONY : Colors
+
+# fast build rule for target.
+Colors/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Colors/CMakeFiles/Colors.dir/build.make src/Assignments/Colors/CMakeFiles/Colors.dir/build
+.PHONY : Colors/fast
+
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
 
@@ -355,6 +368,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... Colors"
 	@echo "... House"
 	@echo "... MeshesMaterials"
 	@echo "... application"

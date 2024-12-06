@@ -16,7 +16,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -28,7 +29,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -38,7 +39,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-5f3a85a59f5b8e39d246.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-6a5b56a56fab401a0a94.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -48,13 +49,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-7751bb5a78aa89208e93.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-96ae95b70cd495b45887.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -64,8 +65,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						5,
-						10
+						6,
+						11
 					]
 				},
 				{
@@ -95,7 +96,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -110,7 +111,7 @@
 					"source" : "build/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -125,7 +126,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -140,7 +141,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -155,7 +156,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -170,7 +171,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -185,7 +186,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -198,6 +199,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 9,
 					"source" : "src/Assignments/House",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/Assignments/Colors",
+					"jsonFile" : "directory-src.Assignments.Colors-Release-8d7b296f0ff6ce2ea9b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "src/Assignments/Colors",
 					"targetIndexes" : 
 					[
 						0
@@ -218,7 +234,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"directoryIndexes" : 
 					[
@@ -227,7 +244,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -240,9 +257,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5,
-						9,
-						10
+						6,
+						10,
+						11
 					]
 				},
 				{
@@ -255,7 +272,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -267,7 +284,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -279,7 +296,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -291,7 +308,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -303,7 +320,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -315,7 +332,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -327,7 +344,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -339,12 +356,31 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "Colors",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						0
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 12,
+					"id" : "Colors::@5062fdf58fc14a2873b4",
+					"jsonFile" : "target-Colors-Release-ae888ad3a7ed18c56352.json",
+					"name" : "Colors",
+					"projectIndex" : 10
+				},
 				{
 					"directoryIndex" : 11,
 					"id" : "House::@a57c938c6b5fe80120df",

@@ -298,6 +298,15 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Colors_BINARY_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Colors
+
+//Value Computed by CMake
+Colors_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Colors_SOURCE_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Colors
+
+//Value Computed by CMake
 Engine_BINARY_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Engine
 
 //Value Computed by CMake
@@ -738,7 +747,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJC_COMPILER
@@ -805,6 +814,8 @@ GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL=-framework Cocoa -framework IOKit -framework CoreFoundation -framework QuartzCore
 //GLFW pkg-config Requires.private
 GLFW_PKG_CONFIG_REQUIRES_PRIVATE:INTERNAL=
+//Have symbol fwrite_unlocked
+HAVE_FWRITE_UNLOCKED:INTERNAL=
 //ADVANCED property for variable: OPENGL_GLU_INCLUDE_DIR
 OPENGL_GLU_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
