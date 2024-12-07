@@ -545,6 +545,9 @@
 		},
 		{
 			"path" : "src/Assignments/Colors/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/Indices/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -1003,7 +1003,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "13"
+			"value" : "14"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2272,6 +2272,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/House"
+		},
+		{
+			"name" : "Indices_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Indices"
+		},
+		{
+			"name" : "Indices_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Indices_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Indices"
 		},
 		{
 			"name" : "MeshesMaterials_BINARY_DIR",

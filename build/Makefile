@@ -330,6 +330,19 @@ Colors/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/Colors/CMakeFiles/Colors.dir/build.make src/Assignments/Colors/CMakeFiles/Colors.dir/build
 .PHONY : Colors/fast
 
+#=============================================================================
+# Target rules for targets named Indices
+
+# Build rule for target.
+Indices: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Indices
+.PHONY : Indices
+
+# fast build rule for target.
+Indices/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Indices/CMakeFiles/Indices.dir/build.make src/Assignments/Indices/CMakeFiles/Indices.dir/build
+.PHONY : Indices/fast
+
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
 
@@ -370,6 +383,7 @@ help:
 	@echo "... update_mappings"
 	@echo "... Colors"
 	@echo "... House"
+	@echo "... Indices"
 	@echo "... MeshesMaterials"
 	@echo "... application"
 	@echo "... engine"
