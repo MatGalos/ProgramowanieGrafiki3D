@@ -25,6 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Application/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Colors/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/House/CMakeLists.txt"
+  "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Indices/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Engine/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/ObjectReader/CMakeLists.txt"
@@ -116,6 +117,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Assignments/Triangle/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/House/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/Colors/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Assignments/Indices/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -133,4 +135,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/DependInfo.cmake"
   "src/Assignments/House/CMakeFiles/House.dir/DependInfo.cmake"
   "src/Assignments/Colors/CMakeFiles/Colors.dir/DependInfo.cmake"
+  "src/Assignments/Indices/CMakeFiles/Indices.dir/DependInfo.cmake"
   )

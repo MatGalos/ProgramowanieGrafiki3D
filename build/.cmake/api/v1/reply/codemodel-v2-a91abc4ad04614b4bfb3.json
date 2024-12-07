@@ -17,7 +17,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -29,7 +30,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -39,7 +40,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-6a5b56a56fab401a0a94.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-bc6b9aa5aef67faad8a3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -49,13 +50,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-96ae95b70cd495b45887.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-cfc1e5b619f5f058fde1.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -65,8 +66,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						6,
-						11
+						7,
+						12
 					]
 				},
 				{
@@ -96,7 +97,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -111,7 +112,7 @@
 					"source" : "build/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -126,7 +127,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -141,7 +142,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -156,7 +157,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -171,7 +172,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -186,7 +187,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -218,6 +219,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "src/Assignments/Indices",
+					"jsonFile" : "directory-src.Assignments.Indices-Release-a267fa94604e9b4ae21c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "src/Assignments/Indices",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Release",
@@ -235,7 +251,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					],
 					"directoryIndexes" : 
 					[
@@ -244,7 +261,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -257,9 +274,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6,
-						10,
-						11
+						7,
+						11,
+						12
 					]
 				},
 				{
@@ -272,7 +289,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -284,7 +301,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -296,7 +313,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -308,7 +325,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -320,7 +337,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -332,7 +349,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -344,7 +361,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -370,6 +387,18 @@
 					[
 						0
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "Indices",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"targets" : 
@@ -387,6 +416,13 @@
 					"jsonFile" : "target-House-Release-af58e2774ca2e4b5922d.json",
 					"name" : "House",
 					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Indices::@7518ba586045ff6a9b77",
+					"jsonFile" : "target-Indices-Release-04ef6cb5c8191a53a48f.json",
+					"name" : "Indices",
+					"projectIndex" : 11
 				},
 				{
 					"directoryIndex" : 10,
