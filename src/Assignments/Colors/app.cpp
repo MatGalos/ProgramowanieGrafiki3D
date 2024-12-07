@@ -37,31 +37,33 @@ void SimpleShapeApplication::init() {
     std::vector<GLfloat> vertices = {
             // roof
             0.0f, 0.5f, 0.0f,   
-            1,0,0,
+            1.0f,0.0f,0.f,
 
             -0.5f, 0.0f, 0.0f,  
-            1,0,0,
+            1.0f,0.0f,0.f,
 
             0.5f, 0.0f, 0.0f,   
-            1,0,0,
+            1.0f,0.0f,0.f,
+
             // bottom side of the base
             0.5f, 0.0f, 0.0f,   
-            0,1,0,
+            0.0f,1.0f,0.0f,
 
             -0.5f, -0.5f, 0.0f, 
-            0,1,0,
+            0.0f,1.0f,0.0f,
 
             0.5f, -0.5f, 0.0f,  
-            0,1,0,
+            0.0f,1.0f,0.0f,
+
             // Top right side of the home base
             0.5f, 0.0f, 0.0f,   
-            0,1,0,
+            0.0f,1.0f,0.0f,
 
             -0.5f, -0.5f, 0.0f, 
-            0,1,0,
+            0.0f,1.0f,0.0f,
             
             -0.5f, 0.0f, 0.0f,  
-            0,1,0};
+            0.0f,1.0f,0.0f};
 
     // Generating the buffer and loading the vertex data into it.
     GLuint v_buffer_handle;
