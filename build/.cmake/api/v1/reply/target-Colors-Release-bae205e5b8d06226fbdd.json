@@ -18,7 +18,6 @@
 		"files" : 
 		[
 			"src/Assignments/Colors/CMakeLists.txt",
-			"src/XeEngine/CMakeLists.txt",
 			"build/_deps/glfw-src/src/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
@@ -45,32 +44,23 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 18,
+				"line" : 146,
 				"parent" : 3
 			},
 			{
 				"file" : 2
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 2,
-				"line" : 146,
+				"line" : 32,
 				"parent" : 5
 			},
 			{
-				"file" : 3
-			},
-			{
 				"command" : 2,
-				"file" : 3,
-				"line" : 32,
-				"parent" : 7
-			},
-			{
-				"command" : 2,
-				"file" : 3,
+				"file" : 2,
 				"line" : 33,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
 				"command" : 2,
@@ -80,33 +70,33 @@
 			},
 			{
 				"command" : 2,
-				"file" : 3,
+				"file" : 2,
 				"line" : 5,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
 				"command" : 2,
-				"file" : 3,
+				"file" : 2,
 				"line" : 19,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
 				"command" : 3,
-				"file" : 3,
+				"file" : 2,
 				"line" : 16,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
 				"command" : 3,
-				"file" : 3,
+				"file" : 2,
 				"line" : 17,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
 				"command" : 3,
-				"file" : 3,
+				"file" : 2,
 				"line" : 40,
-				"parent" : 7
+				"parent" : 5
 			}
 		]
 	},
@@ -122,23 +112,23 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 6,
 					"define" : "MAJOR=4"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 7,
 					"define" : "MINOR=1"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 8,
 					"define" : "PROJECT_DIR=\"/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Colors\""
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 8,
 					"define" : "PROJECT_NAME=\"Colors\""
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 9,
 					"define" : "ROOT_DIR=\"/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie\""
 				},
 				{
@@ -146,7 +136,7 @@
 					"define" : "SPDLOG_COMPILED_LIB"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 10,
 					"define" : "XE_DEBUG"
 				}
 			],
@@ -161,15 +151,15 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 13,
+					"backtrace" : 11,
 					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/3rdParty"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 12,
 					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 13,
 					"path" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/3rdParty/glad/glad_4_1/glad/include"
 				},
 				{
@@ -222,14 +212,6 @@
 		{
 			"backtrace" : 1,
 			"id" : "application::@63f4a4cc0e32de8c050b"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "objreader::@fe69842f7a07b275738d"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "xe-engine::@6de0204676fa90e31894"
 		}
 	],
 	"id" : "Colors::@5062fdf58fc14a2873b4",
@@ -270,16 +252,6 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "../../XeEngine/libxe-engine.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "../../ObjectReader/libobjreader.a",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "-framework OpenGL",
 				"role" : "libraries"
 			},
@@ -289,33 +261,28 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "-framework Cocoa",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "-framework IOKit",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "-framework CoreFoundation",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "-framework QuartzCore",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 1,
 				"fragment" : "../../../_deps/glm-build/glm/libglm.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "../../../_deps/spdlog-build/libspdlog.a",
 				"role" : "libraries"
 			}
 		],

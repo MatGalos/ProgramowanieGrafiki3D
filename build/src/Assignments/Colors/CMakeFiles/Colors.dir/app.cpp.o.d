@@ -903,6 +903,8 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/app.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/glad/gl.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/KHR/khrplatform.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/application.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/istream \
@@ -960,9 +962,6 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/app.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iomanip \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glfw-src/include/GLFW/glfw3.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/utils.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/glad/gl.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/KHR/khrplatform.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/spdlog.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/common.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/null_mutex.h \
@@ -1013,4 +1012,5 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/app.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/log_msg.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/version.h
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/version.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/utils.h

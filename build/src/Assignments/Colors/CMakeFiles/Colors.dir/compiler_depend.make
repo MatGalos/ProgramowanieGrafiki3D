@@ -1979,7 +1979,6 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/main.cpp.o: /Users/mateuszgalos/ucz
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/KHR/khrplatform.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/glad/gl.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/application.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/utils.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Assignments/Colors/app.h
 
 

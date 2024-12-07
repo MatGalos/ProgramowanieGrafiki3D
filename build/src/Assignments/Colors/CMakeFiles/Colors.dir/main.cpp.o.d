@@ -903,6 +903,8 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/glad/gl.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/KHR/khrplatform.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/application.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/istream \
@@ -959,7 +961,4 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iomanip \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glfw-src/include/GLFW/glfw3.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/utils.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/glad/gl.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/KHR/khrplatform.h
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glfw-src/include/GLFW/glfw3.h

@@ -118,12 +118,9 @@ src/Assignments/Colors/Colors: _deps/glfw-build/src/libglfw3.a
 src/Assignments/Colors/Colors: _deps/glm-build/glm/libglm.a
 src/Assignments/Colors/Colors: src/Application/libapplication.a
 src/Assignments/Colors/Colors: _deps/spdlog-build/libspdlog.a
-src/Assignments/Colors/Colors: src/XeEngine/libxe-engine.a
-src/Assignments/Colors/Colors: src/ObjectReader/libobjreader.a
 src/Assignments/Colors/Colors: /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks/OpenGL.framework
 src/Assignments/Colors/Colors: _deps/glfw-build/src/libglfw3.a
 src/Assignments/Colors/Colors: _deps/glm-build/glm/libglm.a
-src/Assignments/Colors/Colors: _deps/spdlog-build/libspdlog.a
 src/Assignments/Colors/Colors: src/Assignments/Colors/CMakeFiles/Colors.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Colors"
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Colors" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Colors.dir/link.txt --verbose=$(VERBOSE)
