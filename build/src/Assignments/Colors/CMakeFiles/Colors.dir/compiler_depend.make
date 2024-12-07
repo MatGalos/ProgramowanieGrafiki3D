@@ -994,192 +994,6 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/app.cpp.o: /Users/mateuszgalos/ucze
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
   _deps/glfw-src/include/GLFW/glfw3.h \
-  _deps/glm-src/glm/common.hpp \
-  _deps/glm-src/glm/detail/func_vector_relational.inl \
-  _deps/glm-src/glm/detail/qualifier.hpp \
-  _deps/glm-src/glm/detail/setup.hpp \
-  _deps/glm-src/glm/vector_relational.hpp \
-  _deps/glm-src/glm/detail/compute_vector_relational.hpp \
-  _deps/glm-src/glm/detail/_fixes.hpp \
-  _deps/glm-src/glm/detail/_vectorize.hpp \
-  _deps/glm-src/glm/detail/compute_common.hpp \
-  _deps/glm-src/glm/detail/func_common.inl \
-  _deps/glm-src/glm/detail/qualifier.hpp \
-  _deps/glm-src/glm/detail/setup.hpp \
-  _deps/glm-src/glm/detail/type_vec1.hpp \
-  _deps/glm-src/glm/detail/type_vec1.inl \
-  _deps/glm-src/glm/detail/type_vec2.hpp \
-  _deps/glm-src/glm/detail/type_vec3.hpp \
-  _deps/glm-src/glm/detail/type_vec4.hpp \
-  _deps/glm-src/glm/matrix.hpp \
-  _deps/glm-src/glm/detail/compute_vector_relational.hpp \
-  _deps/glm-src/glm/detail/compute_vector_decl.hpp \
-  _deps/glm-src/glm/detail/compute_vector_relational.hpp \
-  _deps/glm-src/glm/detail/qualifier.hpp \
-  _deps/glm-src/glm/detail/setup.hpp \
-  _deps/glm-src/glm/detail/type_mat2x2.hpp \
-  _deps/glm-src/glm/detail/type_mat2x2.inl \
-  _deps/glm-src/glm/detail/type_mat2x3.hpp \
-  _deps/glm-src/glm/detail/type_mat2x3.inl \
-  _deps/glm-src/glm/detail/type_mat2x4.hpp \
-  _deps/glm-src/glm/detail/type_mat2x4.inl \
-  _deps/glm-src/glm/detail/type_mat3x2.hpp \
-  _deps/glm-src/glm/detail/type_mat3x2.inl \
-  _deps/glm-src/glm/detail/type_mat3x3.hpp \
-  _deps/glm-src/glm/detail/type_mat3x3.inl \
-  _deps/glm-src/glm/detail/type_mat3x4.hpp \
-  _deps/glm-src/glm/detail/type_mat3x4.inl \
-  _deps/glm-src/glm/detail/type_mat4x2.hpp \
-  _deps/glm-src/glm/detail/type_mat4x2.inl \
-  _deps/glm-src/glm/detail/type_mat4x3.hpp \
-  _deps/glm-src/glm/detail/type_mat4x3.inl \
-  _deps/glm-src/glm/detail/type_vec2.hpp \
-  _deps/glm-src/glm/detail/type_vec2.inl \
-  _deps/glm-src/glm/detail/type_vec3.hpp \
-  _deps/glm-src/glm/detail/type_vec3.inl \
-  _deps/glm-src/glm/detail/type_vec4.hpp \
-  _deps/glm-src/glm/detail/setup.hpp \
-  _deps/glm-src/glm/ext/scalar_int_sized.hpp \
-  _deps/glm-src/glm/ext/scalar_uint_sized.hpp \
-  _deps/glm-src/glm/ext/vector_int2.hpp \
-  _deps/glm-src/glm/ext/vector_int3.hpp \
-  _deps/glm-src/glm/ext/vector_int4.hpp \
-  _deps/glm-src/glm/ext/vector_uint2.hpp \
-  _deps/glm-src/glm/ext/vector_uint3.hpp \
-  _deps/glm-src/glm/ext/vector_uint4.hpp \
-  _deps/glm-src/glm/ext/matrix_double2x2.hpp \
-  _deps/glm-src/glm/ext/matrix_double2x2_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_double2x3.hpp \
-  _deps/glm-src/glm/ext/matrix_double2x3_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_double2x4.hpp \
-  _deps/glm-src/glm/ext/matrix_double2x4_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_double3x2.hpp \
-  _deps/glm-src/glm/ext/matrix_double3x2_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_double3x3.hpp \
-  _deps/glm-src/glm/ext/matrix_double3x3_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_double3x4.hpp \
-  _deps/glm-src/glm/ext/matrix_double3x4_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_double4x2.hpp \
-  _deps/glm-src/glm/ext/matrix_double4x2_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_double4x3.hpp \
-  _deps/glm-src/glm/ext/matrix_double4x3_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float2x2.hpp \
-  _deps/glm-src/glm/ext/matrix_float2x2_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float2x3.hpp \
-  _deps/glm-src/glm/ext/matrix_float2x3_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float2x4.hpp \
-  _deps/glm-src/glm/ext/matrix_float2x4_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float3x2.hpp \
-  _deps/glm-src/glm/ext/matrix_float3x2_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float3x3.hpp \
-  _deps/glm-src/glm/ext/matrix_float3x3_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float3x4.hpp \
-  _deps/glm-src/glm/ext/matrix_float3x4_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float4x2.hpp \
-  _deps/glm-src/glm/ext/matrix_float4x2_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float4x3.hpp \
-  _deps/glm-src/glm/ext/matrix_float4x3_precision.hpp \
-  _deps/glm-src/glm/ext/vector_bool2.hpp \
-  _deps/glm-src/glm/ext/vector_bool2_precision.hpp \
-  _deps/glm-src/glm/ext/vector_bool3.hpp \
-  _deps/glm-src/glm/ext/vector_bool3_precision.hpp \
-  _deps/glm-src/glm/ext/vector_bool4.hpp \
-  _deps/glm-src/glm/ext/vector_bool4_precision.hpp \
-  _deps/glm-src/glm/ext/vector_double2.hpp \
-  _deps/glm-src/glm/ext/vector_double2_precision.hpp \
-  _deps/glm-src/glm/ext/vector_double3.hpp \
-  _deps/glm-src/glm/ext/vector_double3_precision.hpp \
-  _deps/glm-src/glm/ext/vector_double4.hpp \
-  _deps/glm-src/glm/ext/vector_double4_precision.hpp \
-  _deps/glm-src/glm/ext/vector_float2.hpp \
-  _deps/glm-src/glm/ext/vector_float2_precision.hpp \
-  _deps/glm-src/glm/ext/vector_float3.hpp \
-  _deps/glm-src/glm/ext/vector_float3_precision.hpp \
-  _deps/glm-src/glm/ext/vector_float4.hpp \
-  _deps/glm-src/glm/ext/vector_float4_precision.hpp \
-  _deps/glm-src/glm/ext/vector_int2.hpp \
-  _deps/glm-src/glm/ext/vector_int2_sized.hpp \
-  _deps/glm-src/glm/ext/vector_int3.hpp \
-  _deps/glm-src/glm/ext/vector_int3_sized.hpp \
-  _deps/glm-src/glm/ext/vector_int4.hpp \
-  _deps/glm-src/glm/ext/vector_int4_sized.hpp \
-  _deps/glm-src/glm/ext/vector_uint2.hpp \
-  _deps/glm-src/glm/ext/vector_uint2_sized.hpp \
-  _deps/glm-src/glm/ext/vector_uint3.hpp \
-  _deps/glm-src/glm/ext/vector_uint3_sized.hpp \
-  _deps/glm-src/glm/ext/vector_uint4.hpp \
-  _deps/glm-src/glm/ext/vector_uint4_sized.hpp \
-  _deps/glm-src/glm/common.hpp \
-  _deps/glm-src/glm/vector_relational.hpp \
-  _deps/glm-src/glm/detail/_vectorize.hpp \
-  _deps/glm-src/glm/detail/func_exponential.inl \
-  _deps/glm-src/glm/detail/type_vec1.hpp \
-  _deps/glm-src/glm/detail/type_vec2.hpp \
-  _deps/glm-src/glm/detail/type_vec3.hpp \
-  _deps/glm-src/glm/detail/type_vec4.hpp \
-  _deps/glm-src/glm/exponential.hpp \
-  _deps/glm-src/glm/detail/func_geometric.inl \
-  _deps/glm-src/glm/detail/type_vec3.hpp \
-  _deps/glm-src/glm/geometric.hpp \
-  _deps/glm-src/glm/detail/func_matrix.inl \
-  _deps/glm-src/glm/detail/qualifier.hpp \
-  _deps/glm-src/glm/detail/setup.hpp \
-  _deps/glm-src/glm/geometric.hpp \
-  _deps/glm-src/glm/mat2x2.hpp \
-  _deps/glm-src/glm/mat2x3.hpp \
-  _deps/glm-src/glm/mat2x4.hpp \
-  _deps/glm-src/glm/mat3x2.hpp \
-  _deps/glm-src/glm/mat3x3.hpp \
-  _deps/glm-src/glm/mat3x4.hpp \
-  _deps/glm-src/glm/mat4x2.hpp \
-  _deps/glm-src/glm/mat4x3.hpp \
-  _deps/glm-src/glm/mat4x4.hpp \
-  _deps/glm-src/glm/matrix.hpp \
-  _deps/glm-src/glm/vec2.hpp \
-  _deps/glm-src/glm/vec3.hpp \
-  _deps/glm-src/glm/vec4.hpp \
-  _deps/glm-src/glm/detail/_vectorize.hpp \
-  _deps/glm-src/glm/detail/compute_vector_decl.hpp \
-  _deps/glm-src/glm/detail/compute_vector_relational.hpp \
-  _deps/glm-src/glm/detail/qualifier.hpp \
-  _deps/glm-src/glm/detail/setup.hpp \
-  _deps/glm-src/glm/detail/type_mat4x4.hpp \
-  _deps/glm-src/glm/detail/type_mat4x4.inl \
-  _deps/glm-src/glm/detail/type_vec4.hpp \
-  _deps/glm-src/glm/detail/type_vec4.inl \
-  _deps/glm-src/glm/ext/matrix_double4x4.hpp \
-  _deps/glm-src/glm/ext/matrix_double4x4_precision.hpp \
-  _deps/glm-src/glm/ext/matrix_float4x4.hpp \
-  _deps/glm-src/glm/ext/matrix_float4x4_precision.hpp \
-  _deps/glm-src/glm/simd/platform.h \
-  _deps/glm-src/glm/detail/_vectorize.hpp \
-  _deps/glm-src/glm/detail/func_trigonometric.inl \
-  _deps/glm-src/glm/detail/qualifier.hpp \
-  _deps/glm-src/glm/detail/setup.hpp \
-  _deps/glm-src/glm/ext/scalar_constants.hpp \
-  _deps/glm-src/glm/geometric.hpp \
-  _deps/glm-src/glm/gtc/constants.hpp \
-  _deps/glm-src/glm/matrix.hpp \
-  _deps/glm-src/glm/trigonometric.hpp \
-  _deps/glm-src/glm/ext/matrix_clip_space.hpp \
-  _deps/glm-src/glm/ext/matrix_clip_space.inl \
-  _deps/glm-src/glm/ext/matrix_projection.hpp \
-  _deps/glm-src/glm/ext/matrix_projection.inl \
-  _deps/glm-src/glm/ext/matrix_transform.hpp \
-  _deps/glm-src/glm/ext/matrix_transform.inl \
-  _deps/glm-src/glm/ext/scalar_constants.hpp \
-  _deps/glm-src/glm/ext/scalar_constants.inl \
-  _deps/glm-src/glm/geometric.hpp \
-  _deps/glm-src/glm/mat4x4.hpp \
-  _deps/glm-src/glm/matrix.hpp \
-  _deps/glm-src/glm/trigonometric.hpp \
-  _deps/glm-src/glm/vec2.hpp \
-  _deps/glm-src/glm/vec3.hpp \
-  _deps/glm-src/glm/vec4.hpp \
-  _deps/glm-src/glm/gtc/constants.hpp \
-  _deps/glm-src/glm/gtc/constants.inl \
-  _deps/glm-src/glm/gtc/matrix_transform.hpp \
-  _deps/glm-src/glm/gtc/matrix_transform.inl \
   _deps/spdlog-src/include/spdlog/common.h \
   _deps/spdlog-src/include/spdlog/details/backtracer.h \
   _deps/spdlog-src/include/spdlog/details/circular_q.h \
@@ -2185,166 +1999,6 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 
 _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
-_deps/glm-src/glm/ext/matrix_transform.hpp:
-
-_deps/glm-src/glm/ext/matrix_projection.inl:
-
-_deps/glm-src/glm/ext/matrix_projection.hpp:
-
-_deps/glm-src/glm/ext/matrix_clip_space.inl:
-
-_deps/glm-src/glm/ext/matrix_clip_space.hpp:
-
-_deps/glm-src/glm/trigonometric.hpp:
-
-_deps/glm-src/glm/gtc/constants.hpp:
-
-_deps/glm-src/glm/ext/matrix_float4x4_precision.hpp:
-
-_deps/glm-src/glm/ext/matrix_double4x4.hpp:
-
-_deps/glm-src/glm/detail/type_vec4.inl:
-
-_deps/glm-src/glm/detail/type_mat4x4.inl:
-
-_deps/glm-src/glm/vec4.hpp:
-
-_deps/glm-src/glm/mat3x4.hpp:
-
-_deps/glm-src/glm/mat2x3.hpp:
-
-_deps/glm-src/glm/detail/func_matrix.inl:
-
-_deps/glm-src/glm/simd/platform.h:
-
-_deps/glm-src/glm/geometric.hpp:
-
-_deps/glm-src/glm/detail/func_geometric.inl:
-
-_deps/glm-src/glm/detail/func_exponential.inl:
-
-_deps/glm-src/glm/ext/vector_uint4_sized.hpp:
-
-_deps/glm-src/glm/ext/vector_uint3_sized.hpp:
-
-_deps/glm-src/glm/ext/vector_int3_sized.hpp:
-
-_deps/glm-src/glm/ext/vector_int2_sized.hpp:
-
-_deps/glm-src/glm/ext/vector_float4_precision.hpp:
-
-_deps/glm-src/glm/ext/vector_float4.hpp:
-
-_deps/glm-src/glm/ext/vector_float3_precision.hpp:
-
-_deps/glm-src/glm/ext/vector_double3_precision.hpp:
-
-_deps/glm-src/glm/ext/vector_double2_precision.hpp:
-
-_deps/glm-src/glm/ext/vector_bool4_precision.hpp:
-
-_deps/glm-src/glm/ext/vector_bool3_precision.hpp:
-
-_deps/glm-src/glm/ext/vector_bool3.hpp:
-
-_deps/glm-src/glm/ext/vector_bool2_precision.hpp:
-
-_deps/glm-src/glm/ext/matrix_float4x3.hpp:
-
-_deps/glm-src/glm/ext/matrix_float4x2_precision.hpp:
-
-_deps/glm-src/glm/ext/matrix_float3x4_precision.hpp:
-
-_deps/glm-src/glm/ext/matrix_float3x4.hpp:
-
-_deps/glm-src/glm/ext/matrix_float3x2_precision.hpp:
-
-_deps/glm-src/glm/ext/matrix_float3x2.hpp:
-
-_deps/glm-src/glm/ext/matrix_float2x4.hpp:
-
-_deps/glm-src/glm/ext/matrix_float2x3.hpp:
-
-_deps/glm-src/glm/ext/matrix_float2x2.hpp:
-
-_deps/glm-src/glm/ext/matrix_double4x2_precision.hpp:
-
-_deps/glm-src/glm/ext/matrix_double4x2.hpp:
-
-_deps/glm-src/glm/ext/matrix_double3x4_precision.hpp:
-
-_deps/glm-src/glm/ext/matrix_double3x4.hpp:
-
-_deps/glm-src/glm/detail/type_mat4x4.hpp:
-
-_deps/glm-src/glm/ext/matrix_double3x2.hpp:
-
-_deps/glm-src/glm/ext/matrix_double2x2.hpp:
-
-_deps/glm-src/glm/ext/vector_uint4.hpp:
-
-_deps/glm-src/glm/ext/vector_uint3.hpp:
-
-_deps/glm-src/glm/ext/vector_uint2.hpp:
-
-_deps/glm-src/glm/ext/vector_int4.hpp:
-
-_deps/glm-src/glm/ext/vector_int3.hpp:
-
-_deps/glm-src/glm/ext/vector_int2.hpp:
-
-_deps/glm-src/glm/ext/scalar_uint_sized.hpp:
-
-_deps/glm-src/glm/ext/scalar_int_sized.hpp:
-
-_deps/glm-src/glm/detail/type_mat4x3.inl:
-
-_deps/glm-src/glm/detail/func_trigonometric.inl:
-
-_deps/glm-src/glm/detail/type_mat4x2.inl:
-
-_deps/glm-src/glm/detail/type_mat4x2.hpp:
-
-_deps/glm-src/glm/detail/type_mat3x4.inl:
-
-_deps/glm-src/glm/detail/type_mat3x4.hpp:
-
-_deps/glm-src/glm/detail/type_mat3x3.inl:
-
-_deps/glm-src/glm/detail/type_mat3x3.hpp:
-
-_deps/glm-src/glm/detail/type_mat3x2.inl:
-
-_deps/glm-src/glm/detail/type_mat2x4.inl:
-
-_deps/glm-src/glm/detail/type_mat2x3.inl:
-
-_deps/glm-src/glm/detail/type_mat2x3.hpp:
-
-_deps/glm-src/glm/detail/type_mat2x2.inl:
-
-_deps/glm-src/glm/detail/compute_vector_decl.hpp:
-
-_deps/glm-src/glm/detail/type_vec4.hpp:
-
-_deps/glm-src/glm/detail/type_vec3.hpp:
-
-_deps/glm-src/glm/detail/type_vec2.hpp:
-
-_deps/glm-src/glm/detail/type_vec1.inl:
-
-_deps/glm-src/glm/detail/type_vec1.hpp:
-
-_deps/glm-src/glm/detail/func_common.inl:
-
-_deps/glm-src/glm/detail/compute_common.hpp:
-
-_deps/glm-src/glm/detail/_vectorize.hpp:
-
-_deps/glm-src/glm/vector_relational.hpp:
-
-_deps/glm-src/glm/detail/func_vector_relational.inl:
-
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_size_t.h:
@@ -2360,8 +2014,6 @@ _deps/glfw-src/include/GLFW/glfw3.h:
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_max_align_t.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg_va_list.h:
-
-_deps/glm-src/glm/mat4x4.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg_va_copy.h:
 
@@ -2384,8 +2036,6 @@ _deps/glm-src/glm/mat4x4.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/wait.h:
-
-_deps/glm-src/glm/ext/vector_bool2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/types.h:
 
@@ -2413,8 +2063,6 @@ _deps/glm-src/glm/ext/vector_bool2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_u_int64_t.h:
 
-_deps/glm-src/glm/ext/vector_int4_sized.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_ucontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_u_int16_t.h:
@@ -2426,8 +2074,6 @@ _deps/glm-src/glm/ext/vector_int4_sized.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_timespec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_time_t.h:
-
-_deps/glm-src/glm/gtc/matrix_transform.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_suseconds_t.h:
 
@@ -2463,8 +2109,6 @@ _deps/glm-src/glm/gtc/matrix_transform.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_id_t.h:
 
-_deps/glm-src/glm/ext/matrix_double3x2_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_gid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
@@ -2487,13 +2131,9 @@ _deps/spdlog-src/include/spdlog/details/periodic_worker.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
-_deps/glm-src/glm/ext/scalar_constants.inl:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
-
-_deps/glm-src/glm/ext/matrix_double4x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
@@ -2532,8 +2172,6 @@ _deps/glm-src/glm/ext/matrix_double4x3_precision.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/malloc/_malloc_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/malloc/_malloc.h:
-
-_deps/glm-src/glm/mat4x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/machine/types.h:
 
@@ -2603,8 +2241,6 @@ _deps/spdlog-src/include/spdlog/details/backtracer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream:
 
-_deps/glm-src/glm/ext/scalar_constants.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/functional:
@@ -2630,8 +2266,6 @@ _deps/glm-src/glm/ext/scalar_constants.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/atomic:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/array:
-
-_deps/glm-src/glm/detail/setup.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/jthread.h:
 
@@ -2827,8 +2461,6 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
 
-_deps/glm-src/glm/ext/matrix_float3x3.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
@@ -2929,8 +2561,6 @@ _deps/glm-src/glm/ext/matrix_float3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/id.h:
 
-_deps/glm-src/glm/common.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/string_view:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ios:
@@ -2944,10 +2574,6 @@ _deps/glm-src/glm/common.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__string/char_traits.h:
-
-_deps/glm-src/glm/mat3x2.hpp:
-
-_deps/glm-src/glm/ext/matrix_double2x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_token.h:
 
@@ -3031,8 +2657,6 @@ _deps/glm-src/glm/ext/matrix_double2x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
-_deps/glm-src/glm/ext/matrix_double3x3_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
@@ -3065,8 +2689,6 @@ _deps/glm-src/glm/ext/matrix_double3x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cwchar:
 
-_deps/glm-src/glm/detail/type_mat2x4.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/addressof.h:
@@ -3095,8 +2717,6 @@ _deps/glm-src/glm/detail/type_mat2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/fdim.h:
 
-_deps/glm-src/glm/detail/_fixes.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/exponential_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/copysign.h:
@@ -3114,8 +2734,6 @@ _deps/glm-src/glm/detail/_fixes.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__locale:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h:
-
-_deps/glm-src/glm/ext/matrix_float4x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
@@ -3151,8 +2769,6 @@ _deps/glm-src/glm/ext/matrix_float4x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
-_deps/glm-src/glm/detail/type_vec3.inl:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
@@ -3164,8 +2780,6 @@ _deps/glm-src/glm/detail/type_vec3.inl:
 _deps/spdlog-src/include/spdlog/details/null_mutex.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
-
-_deps/glm-src/glm/ext/matrix_float3x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
@@ -3187,13 +2801,9 @@ _deps/glm-src/glm/ext/matrix_float3x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
-_deps/glm-src/glm/ext/matrix_float4x4.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/formatter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/cpp17_iterator_concepts.h:
-
-_deps/glm-src/glm/ext/matrix_float2x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
@@ -3279,8 +2889,6 @@ _deps/glm-src/glm/ext/matrix_float2x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
-_deps/glm-src/glm/ext/vector_double2.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h:
@@ -3343,8 +2951,6 @@ _deps/glm-src/glm/ext/vector_double2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/arm/_types.h:
 
-_deps/glm-src/glm/detail/type_mat3x2.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_includes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_parse_context.h:
@@ -3377,8 +2983,6 @@ _deps/glm-src/glm/detail/type_mat3x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__exception/exception.h:
 
-_deps/glm-src/glm/ext/vector_uint2_sized.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
@@ -3395,8 +2999,6 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/base.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_ends_with.h:
 
-_deps/glm-src/glm/ext/vector_bool4.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/string:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/predicate.h:
@@ -3406,8 +3008,6 @@ _deps/glm-src/glm/ext/vector_bool4.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
-
-_deps/glm-src/glm/ext/matrix_double2x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h:
 
@@ -3449,8 +3049,6 @@ _deps/glm-src/glm/ext/matrix_double2x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
-_deps/glm-src/glm/mat2x4.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/is_eq.h:
@@ -3458,8 +3056,6 @@ _deps/glm-src/glm/mat2x4.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/compare_partial_order_fallback.h:
-
-_deps/glm-src/glm/ext/matrix_float4x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_nlink_t.h:
 
@@ -3470,10 +3066,6 @@ _deps/glm-src/glm/ext/matrix_float4x2.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year.h:
-
-_deps/glm-src/glm/ext/matrix_transform.inl:
-
-_deps/glm-src/glm/ext/vector_float3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
 
@@ -3539,8 +3131,6 @@ _deps/glm-src/glm/ext/vector_float3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/ref_view.h:
 
-_deps/glm-src/glm/vec2.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/relation.h:
@@ -3594,8 +3184,6 @@ _deps/glm-src/glm/vec2.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
-
-_deps/glm-src/glm/ext/matrix_double2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
 
@@ -3713,8 +3301,6 @@ _deps/spdlog-src/include/spdlog/common.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
-_deps/glm-src/glm/matrix.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/find_if.h:
@@ -3779,8 +3365,6 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 _deps/spdlog-src/include/spdlog/details/registry.h:
 
-_deps/glm-src/glm/ext/matrix_double2x2_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_prev_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
@@ -3794,8 +3378,6 @@ _deps/glm-src/glm/ext/matrix_double2x2_precision.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/xlocale/_stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_arg_store.h:
-
-_deps/glm-src/glm/detail/qualifier.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
 
@@ -3831,8 +3413,6 @@ _deps/glm-src/glm/detail/qualifier.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/blsr.h:
 
-_deps/glm-src/glm/ext/matrix_double3x3.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
@@ -3850,8 +3430,6 @@ _deps/glm-src/glm/ext/matrix_double3x3.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/concepts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h:
-
-_deps/glm-src/glm/ext/vector_double4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__config:
 
@@ -3941,8 +3519,6 @@ _deps/glm-src/glm/ext/vector_double4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_types/_uintmax_t.h:
 
-_deps/glm-src/glm/gtc/constants.inl:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/bit_log2.h:
@@ -3959,8 +3535,6 @@ _deps/glm-src/glm/gtc/constants.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
 
-_deps/glm-src/glm/ext/vector_double4_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/count_if.h:
@@ -3970,8 +3544,6 @@ _deps/spdlog-src/include/spdlog/spdlog.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/auto_cast.h:
-
-_deps/glm-src/glm/ext/vector_float2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_mb_cur_max.h:
 
@@ -4000,8 +3572,6 @@ _deps/glm-src/glm/ext/vector_float2_precision.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_string.h:
-
-_deps/glm-src/glm/detail/compute_vector_relational.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_count_if.h:
 
@@ -4089,8 +3659,6 @@ _deps/glm-src/glm/detail/compute_vector_relational.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
-_deps/glm-src/glm/mat2x2.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
@@ -4123,8 +3691,6 @@ _deps/spdlog-src/include/spdlog/version.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
-_deps/glm-src/glm/gtc/matrix_transform.inl:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__exception/nested_exception.h:
@@ -4136,8 +3702,6 @@ _deps/glm-src/glm/gtc/matrix_transform.inl:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_lower_bound.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/derived_from.h:
-
-_deps/glm-src/glm/ext/vector_double3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
 
@@ -4158,8 +3722,6 @@ _deps/glm-src/glm/ext/vector_double3.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_stable_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/min_element.h:
-
-_deps/glm-src/glm/mat4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
@@ -4203,13 +3765,9 @@ _deps/glm-src/glm/mat4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
-_deps/glm-src/glm/ext/matrix_double4x3.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_source.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
-
-_deps/glm-src/glm/detail/type_mat4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdio.h:
 
@@ -4238,8 +3796,6 @@ _deps/glm-src/glm/detail/type_mat4x3.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/data.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/binder1st.h:
-
-_deps/glm-src/glm/ext/vector_float2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
@@ -4272,8 +3828,6 @@ _deps/glm-src/glm/ext/vector_float2.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_types/_uint16_t.h:
-
-_deps/glm-src/glm/ext/matrix_double4x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
 
@@ -4341,8 +3895,6 @@ _deps/glm-src/glm/ext/matrix_double4x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
-_deps/glm-src/glm/detail/type_vec2.inl:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/buffer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/hypot.h:
@@ -4358,8 +3910,6 @@ _deps/glm-src/glm/detail/type_vec2.inl:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/arm/signal.h:
-
-_deps/glm-src/glm/mat3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__node_handle:
 
@@ -4401,8 +3951,6 @@ _deps/glm-src/glm/mat3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
-_deps/glm-src/glm/ext/matrix_float2x4_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/find_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
@@ -4433,11 +3981,7 @@ _deps/glm-src/glm/ext/matrix_float2x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/__wctype.h:
 
-_deps/glm-src/glm/detail/type_mat2x2.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/arm/_mcontext.h:
-
-_deps/glm-src/glm/ext/matrix_double2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
@@ -4463,16 +4007,10 @@ _deps/glm-src/glm/ext/matrix_double2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/rounding_functions.h:
 
-_deps/glm-src/glm/vec3.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_make_heap.h:
-
-_deps/glm-src/glm/exponential.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bit:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_ctype.h:
-
-_deps/glm-src/glm/ext/matrix_float2x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/fold.h:

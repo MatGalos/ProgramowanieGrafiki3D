@@ -1,8 +1,20 @@
 #version 420
 
+in vec3 vertexColor;
+
 layout(location=0) out vec4 vFragColor;
-layout(location=1) in vec4 vertex_color;
+
+//uniform Color {
+//    vec4 Kd;
+//    bool use_map_Kd;
+//};
+//
+//uniform sampler2D map_Kd;
 
 void main() {
-    vFragColor = vertex_color;
+    //if (use_map_Kd)
+        vFragColor = vec4(vertexColor, 1.0);
+        //vFragColor = Kd*texture(map_Kd, vertex_texcoords);
+    //else
+        //vFragColor = Kd;
 }
