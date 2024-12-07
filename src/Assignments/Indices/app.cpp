@@ -37,33 +37,40 @@ void SimpleShapeApplication::init() {
     std::vector<GLfloat> vertices = {
             // roof
             0.0f, 0.5f, 0.0f,   
-            1.0f,0.0f,0.f,
+            1,0,0,
 
             -0.5f, 0.0f, 0.0f,  
-            1.0f,0.0f,0.f,
+            1,0,0,
 
-            0.5f, 0.0f, 0.0f,   
-            1.0f,0.0f,0.f,
+            0.5f, 0.0f, 0.0f,
+            1,0,0,
 
             // bottom side of the base
-            0.5f, 0.0f, 0.0f,   
-            0.0f,1.0f,0.0f,
-
-            -0.5f, -0.5f, 0.0f, 
-            0.0f,1.0f,0.0f,
-
-            0.5f, -0.5f, 0.0f,  
-            0.0f,1.0f,0.0f,
+            0.5f, -0.5f, 0.0f,
+            0,1,0,
 
             // Top right side of the home base
-            0.5f, 0.0f, 0.0f,   
-            0.0f,1.0f,0.0f,
+            -0.5f, -0.5f, 0.0f,
+            0,1,0
+        };
 
-            -0.5f, -0.5f, 0.0f, 
-            0.0f,1.0f,0.0f,
-            
-            -0.5f, 0.0f, 0.0f,  
-            0.0f,1.0f,0.0f};
+    std::vector<GLubyte> index_buffer;
+    for(int i = 0; i<vertices.size()/6; i++)index_buffer.push_back(i);
+
+    // A vector containing the indicies for the house
+    //std::vector<GLubyte> indices = {0,1,2,3,4,5,6,7,8};
+    std::vector<GLubyte> indices = {
+        0,1,2,
+        1,2,3,
+        1,3,4
+    };
+
+    GLuint index_buffer_handle;
+    glGenBuffers(1, &index_buffer_handle);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, index_buffer_handle);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size()*sizeof(GLushort), indices.data(), GL_STATIC_DRAW);
+
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0); 
 
     // Generating the buffer and loading the vertex data into it.
     GLuint v_buffer_handle;
@@ -88,11 +95,12 @@ void SimpleShapeApplication::init() {
                                    reinterpret_cast<GLvoid *>(3 * sizeof(GLfloat)));
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, index_buffer_handle);
     glBindVertexArray(0);
 
     // Setting the background color of the rendering window,
     // I suggest not using white or black for better debugging.
-    glClearColor(1.f, 1.f, 0.8f, 1.0f);
+    glClearColor(1.f, 1.f, 0.2f, 1.0f);
 
     // This set up an OpenGL viewport of the size of the whole rendering window.
     auto [w, h] = frame_buffer_size();
@@ -105,6 +113,6 @@ void SimpleShapeApplication::init() {
 void SimpleShapeApplication::frame() {
     // Binding the VAO will set up all the required vertex attribute arrays.
     glBindVertexArray(vao_);
-    glDrawArrays(GL_TRIANGLES, 0, 9);
+    glDrawElements(GL_TRIANGLES, 9,  GL_UNSIGNED_BYTE, 0);
     glBindVertexArray(0);
 }
