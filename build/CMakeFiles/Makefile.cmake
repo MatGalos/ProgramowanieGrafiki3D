@@ -23,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/spdlog-src/cmake/ide.cmake"
   "_deps/spdlog-src/cmake/utils.cmake"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Application/CMakeLists.txt"
+  "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Colors/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/House/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Engine/CMakeLists.txt"
@@ -43,6 +44,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake"
   "/opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake"
   "/opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake"
+  "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-OBJC.cmake"
@@ -113,6 +115,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Engine/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/Triangle/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/House/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Assignments/Colors/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -129,4 +132,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Engine/CMakeFiles/engine.dir/DependInfo.cmake"
   "src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/DependInfo.cmake"
   "src/Assignments/House/CMakeFiles/House.dir/DependInfo.cmake"
+  "src/Assignments/Colors/CMakeFiles/Colors.dir/DependInfo.cmake"
   )
