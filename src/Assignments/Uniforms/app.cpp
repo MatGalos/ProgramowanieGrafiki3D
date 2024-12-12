@@ -11,6 +11,10 @@
 
 #include "glad/gl.h"
 
+#include "glm/glm.hpp"
+
+#include "glm/gtc/constants.hpp"
+
 #include "Application/utils.h"
 
 void SimpleShapeApplication::init() {
@@ -32,6 +36,36 @@ void SimpleShapeApplication::init() {
         SPDLOG_CRITICAL("Invalid program");
         exit(-1);
     }
+
+    GLuint uniform_buffer_handle;
+    glGenBuffers(1, &uniform_buffer_handle);
+    glBindBuffer(GL_UNIFORM_BUFFER, uniform_buffer_handle);
+    glBufferData(GL_UNIFORM_BUFFER, 8*sizeof(float), NULL, GL_STATIC_DRAW);
+
+    float strength = 0.75;
+    float mix_color[3] = {1.0, 2.0, 2.0};
+
+    glBindBufferBase(GL_UNIFORM_BUFFER, 0, uniform_buffer_handle);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, 4*sizeof(float), &strength);
+    glBufferSubData(GL_UNIFORM_BUFFER, 4*sizeof(float), 4*sizeof(float), mix_color);
+
+    GLuint uniform_buffer_handle2;
+    glGenBuffers(1, &uniform_buffer_handle2);
+    glBindBuffer(GL_UNIFORM_BUFFER, uniform_buffer_handle2);
+    glBufferData(GL_UNIFORM_BUFFER, 16*sizeof(float), NULL, GL_STATIC_DRAW);
+
+    float theta = 1.0*glm::pi<float>()/1.0f;//30 degrees
+    auto cs = std::cos(theta);
+    auto ss = std::sin(theta);  
+    glm::mat2 rot{cs,ss,-ss,cs};
+    glm::vec2 trans{1.0, 1.0};
+    glm::vec2 scale{1.0, 1.0};
+
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, uniform_buffer_handle2);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, 2*sizeof(float), &scale);
+    glBufferSubData(GL_UNIFORM_BUFFER, 2*sizeof(float), 2*sizeof(float), &trans);
+    glBufferSubData(GL_UNIFORM_BUFFER, 4*sizeof(float), 4*sizeof(float), &rot[0]);
+    glBufferSubData(GL_UNIFORM_BUFFER, 8*sizeof(float), 4*sizeof(float), &rot[1]);
 
     // A vector containing the x,y,z vertex coordinates for the triangle.
     std::vector<GLfloat> vertices = {
@@ -100,7 +134,7 @@ void SimpleShapeApplication::init() {
 
     // Setting the background color of the rendering window,
     // I suggest not using white or black for better debugging.
-    glClearColor(1.f, 1.f, 0.2f, 1.0f);
+    glClearColor(1.f, 1.f, 0.0f, 1.0f);
 
     // This set up an OpenGL viewport of the size of the whole rendering window.
     auto [w, h] = frame_buffer_size();
