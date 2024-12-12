@@ -588,6 +588,15 @@ SPDLOG_WCHAR_FILENAMES:BOOL=OFF
 SPDLOG_WCHAR_SUPPORT:BOOL=OFF
 
 //Value Computed by CMake
+Uniforms_BINARY_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Uniforms
+
+//Value Computed by CMake
+Uniforms_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Uniforms_SOURCE_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Uniforms
+
+//Value Computed by CMake
 XeEngine_BINARY_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/XeEngine
 
 //Value Computed by CMake
@@ -756,7 +765,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJC_COMPILER

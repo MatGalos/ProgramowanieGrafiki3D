@@ -548,6 +548,9 @@
 		},
 		{
 			"path" : "src/Assignments/Indices/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/Uniforms/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
