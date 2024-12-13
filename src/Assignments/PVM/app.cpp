@@ -17,6 +17,14 @@
 
 #include "Application/utils.h"
 
+#include "glm/vec2.hpp"
+#include "glm/fwd.hpp"
+#include "glm/detail/type_mat2x2.hpp"
+#include "glm/ext/scalar_constants.hpp"
+#include "glm/trigonometric.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+
 void SimpleShapeApplication::init() {
     /*
      * A utility function that reads the shaders' source files, compiles them and creates the program object,
@@ -43,29 +51,33 @@ void SimpleShapeApplication::init() {
     glBufferData(GL_UNIFORM_BUFFER, 8*sizeof(float), NULL, GL_STATIC_DRAW);
 
     float strength = 0.75;
-    float mix_color[3] = {1.0, 2.0, 2.0};
+    float mix_color[3] = {1.0, 1.0, 1.0};
 
     glBindBufferBase(GL_UNIFORM_BUFFER, 0, uniform_buffer_handle);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, 4*sizeof(float), &strength);
     glBufferSubData(GL_UNIFORM_BUFFER, 4*sizeof(float), 4*sizeof(float), mix_color);
 
-    GLuint uniform_buffer_handle2;
-    glGenBuffers(1, &uniform_buffer_handle2);
-    glBindBuffer(GL_UNIFORM_BUFFER, uniform_buffer_handle2);
-    glBufferData(GL_UNIFORM_BUFFER, 16*sizeof(float), NULL, GL_STATIC_DRAW);
+    GLuint transformation;
+    glGenBuffers(1, &transformation);
+    glBindBuffer(GL_UNIFORM_BUFFER, transformation);
+    glBufferData(GL_UNIFORM_BUFFER, 64, nullptr, GL_STATIC_DRAW);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, transformation);
 
-    float theta = 1.0*glm::pi<float>()/1.0f;//30 degrees
-    auto cs = std::cos(theta);
-    auto ss = std::sin(theta);  
-    glm::mat2 rot{cs,ss,-ss,cs};
-    glm::vec2 trans{1.0, 1.0};
-    glm::vec2 scale{1.0, 1.0};
+    glm::mat4 model = glm::mat4(1.0f);
+    glm::mat4 view = glm::lookAt(
+            glm::vec3(0.0f, 0.0f, 1.0f),             
+            glm::vec3(0.0f, 0.0f, 0.0f),           
+            glm::vec3(0.0f, 0.0f, 0.0f));            
 
-    glBindBufferBase(GL_UNIFORM_BUFFER, 1, uniform_buffer_handle2);
-    glBufferSubData(GL_UNIFORM_BUFFER, 0, 2*sizeof(float), &scale);
-    glBufferSubData(GL_UNIFORM_BUFFER, 2*sizeof(float), 2*sizeof(float), &trans);
-    glBufferSubData(GL_UNIFORM_BUFFER, 4*sizeof(float), 4*sizeof(float), &rot[0]);
-    glBufferSubData(GL_UNIFORM_BUFFER, 8*sizeof(float), 4*sizeof(float), &rot[1]);
+    glm::mat4 projection = glm::perspective(
+            glm::radians(90.0f),                    
+            0.2f,                                          
+            0.1f,                                          
+            100.0f);                                         
+
+    glm::mat4 PVM = projection * view * model;
+
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
 
     // A vector containing the x,y,z vertex coordinates for the triangle.
     std::vector<GLfloat> vertices = {
