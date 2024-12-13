@@ -26,6 +26,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Colors/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/House/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Indices/CMakeLists.txt"
+  "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/PVM/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Uniforms/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Engine/CMakeLists.txt"
@@ -120,6 +121,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Assignments/Colors/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/Indices/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/Uniforms/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Assignments/PVM/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -139,4 +141,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Assignments/Colors/CMakeFiles/Colors.dir/DependInfo.cmake"
   "src/Assignments/Indices/CMakeFiles/Indices.dir/DependInfo.cmake"
   "src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/DependInfo.cmake"
+  "src/Assignments/PVM/CMakeFiles/PVM.dir/DependInfo.cmake"
   )
