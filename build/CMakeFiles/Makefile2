@@ -1223,8 +1223,7 @@ src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: _deps/glfw-b
 src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: src/Application/CMakeFiles/application.dir/all
-src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: src/ObjectReader/CMakeFiles/objreader.dir/all
-src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: src/XeEngine/CMakeFiles/xe-engine.dir/all
+src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: src/Engine/CMakeFiles/engine.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=13,14,15 "Built target MeshesMaterials"
@@ -1232,7 +1231,7 @@ src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all: src/XeEngine
 
 # Build rule for subdir invocation for target.
 src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 51
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 0
 .PHONY : src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/rule

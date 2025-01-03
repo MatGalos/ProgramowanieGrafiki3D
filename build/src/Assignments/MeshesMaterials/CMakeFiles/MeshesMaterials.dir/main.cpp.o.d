@@ -1186,4 +1186,5 @@ src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/main.cpp.o: \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../matrix.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Assignments/MeshesMaterials/rotation.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Assignments/MeshesMaterials/camera_controler.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/XeEngine/Mesh.h
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Engine/Mesh.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Engine/Material.h

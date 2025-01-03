@@ -118,12 +118,10 @@ src/Assignments/MeshesMaterials/MeshesMaterials: _deps/glfw-build/src/libglfw3.a
 src/Assignments/MeshesMaterials/MeshesMaterials: _deps/glm-build/glm/libglm.a
 src/Assignments/MeshesMaterials/MeshesMaterials: src/Application/libapplication.a
 src/Assignments/MeshesMaterials/MeshesMaterials: _deps/spdlog-build/libspdlog.a
-src/Assignments/MeshesMaterials/MeshesMaterials: src/XeEngine/libxe-engine.a
-src/Assignments/MeshesMaterials/MeshesMaterials: src/ObjectReader/libobjreader.a
+src/Assignments/MeshesMaterials/MeshesMaterials: src/Engine/libengine.a
 src/Assignments/MeshesMaterials/MeshesMaterials: /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks/OpenGL.framework
 src/Assignments/MeshesMaterials/MeshesMaterials: _deps/glfw-build/src/libglfw3.a
 src/Assignments/MeshesMaterials/MeshesMaterials: _deps/glm-build/glm/libglm.a
-src/Assignments/MeshesMaterials/MeshesMaterials: _deps/spdlog-build/libspdlog.a
 src/Assignments/MeshesMaterials/MeshesMaterials: src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MeshesMaterials"
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/MeshesMaterials" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MeshesMaterials.dir/link.txt --verbose=$(VERBOSE)

@@ -9,6 +9,8 @@
 #include "glad/gl.h"
 #include "glm/gtc/matrix_transform.hpp"
 #include "Application/utils.h"
+#include "Engine/Mesh.h"
+#include "Engine/Material.h"
 
 void SimpleShapeApplication::init() {
     auto program = xe::utils::create_program(
@@ -17,14 +19,17 @@ void SimpleShapeApplication::init() {
                 {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}
         });
 
-
     if (!program) {
         SPDLOG_CRITICAL("Invalid program");
         exit(-1);
     }
 
+    xe::ColorMaterial::init();
+
     set_camera(new Camera);
     set_controler(new CameraControler(camera()));
+
+    auto pyramid = new xe::Mesh;
 
     std::vector<GLshort> indices = {
         0, 1, 2,
@@ -35,25 +40,25 @@ void SimpleShapeApplication::init() {
         13, 14, 15
     };
     std::vector<GLfloat> vertices = {
-         1,  1,  0,     0.5, 0.5, 0.5,
-         1, -1,  0,     0.5, 0.5, 0.5,
-        -1,  1,  0,     0.5, 0.5, 0.5,
-        -1, -1,  0,     0.5, 0.5, 0.5,
-         1, -1,  0,     1, 0, 0,
-        -1, -1,  0,     1, 0, 0,
-         0,  0,  1,     1, 0, 0,
-         1,  1,  0,     0, 1, 0,
-         1, -1,  0,     0, 1, 0,
-         0,  0,  1,     0, 1, 0,
-         1,  1,  0,     0, 0, 1,
-        -1,  1,  0,     0, 0, 1,
-         0,  0,  1,     0, 0, 1,
-        -1,  1,  0,     1, 1, 0,
-        -1, -1,  0,     1, 1, 0,
-         0,  0,  1,     1, 1, 0,
+         1,  1,  0,
+         1, -1,  0,
+        -1,  1,  0,
+        -1, -1,  0,
+         1, -1,  0,
+        -1, -1,  0,
+         0,  0,  1,
+         1,  1,  0,
+         1, -1,  0,
+         0,  0,  1,
+         1,  1,  0,
+        -1,  1,  0,
+         0,  0,  1,
+        -1,  1,  0,
+        -1, -1,  0,
+         0,  0,  1,
     };
 
-   glm::vec3 camera_position = { 0,0,3 };
+    glm::vec3 camera_position = { 0,0,3 };
     glm::vec3 zero = { 0,0,0 };
     glm::vec3 up_vector = { 0,1,0 };
     int w, h;
@@ -72,45 +77,23 @@ void SimpleShapeApplication::init() {
     OGL_CALL(glBindBufferBase(GL_UNIFORM_BUFFER, 1, u_pvm_buffer_));
     OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, 0));
 
-    GLuint m_buffer_handle;
-    float strength = 0.5f;
-    float color[3] = { 1,0,0 };
-    OGL_CALL(glGenBuffers(1, &m_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, m_buffer_handle));
-    OGL_CALL(glBufferData(GL_UNIFORM_BUFFER, 8 * sizeof(GLfloat), 0, GL_STATIC_DRAW));
-    OGL_CALL(glBindBufferBase(GL_UNIFORM_BUFFER, 0, m_buffer_handle));
-    OGL_CALL(glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(strength), &strength));
-    OGL_CALL(glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), sizeof(color), color));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, 0));
+    auto vertices_size = sizeof(vertices[0]) * vertices.size();
+    pyramid->allocate_vertex_buffer(vertices_size, GL_STATIC_DRAW);
+    pyramid->load_vertices(0, vertices_size, vertices.data());
 
-    GLuint v_buffer_handle;
-    OGL_CALL(glGenBuffers(1, &v_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle));
-    OGL_CALL(glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW));
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, 0));
+    auto indices_size = sizeof(indices[0]) * indices.size();
+    pyramid->allocate_index_buffer(indices_size, GL_STATIC_DRAW);
+    pyramid->load_indices(0, indices_size, indices.data());
 
-    GLuint i_buffer_handle;
-    OGL_CALL(glGenBuffers(1, &i_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle));
-    OGL_CALL(glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(GLshort), indices.data(), GL_STATIC_DRAW));
-    OGL_CALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0));
+    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 3 * sizeof(GLfloat), 0);
 
-    OGL_CALL(glGenVertexArrays(1, &vao_));
-    OGL_CALL(glBindVertexArray(vao_));
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle));
+    pyramid->add_submesh(0, 6, new xe::ColorMaterial(glm::vec4(glm::vec3(0.5, 0.5, 0.5), 1)));
+    pyramid->add_submesh(6, 9, new xe::ColorMaterial(glm::vec4(glm::vec3(1, 0, 0), 1)));
+    pyramid->add_submesh(9, 12, new xe::ColorMaterial(glm::vec4(glm::vec3(0, 1, 0), 1)));
+    pyramid->add_submesh(12, 15, new xe::ColorMaterial(glm::vec4(glm::vec3(0, 0, 1), 1)));
+    pyramid->add_submesh(15, 18, new xe::ColorMaterial(glm::vec4(glm::vec3(1, 1, 0), 1)));
 
-    OGL_CALL(glEnableVertexAttribArray(0));
-    OGL_CALL(glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat),
-        reinterpret_cast<GLvoid*>(0)));
-
-    // <FOR COLOR> <NOT NEEDED NOW>
-    OGL_CALL(glEnableVertexAttribArray(1));
-    OGL_CALL(glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat),
-        reinterpret_cast<GLvoid*>(3 * sizeof(GLfloat))));
-
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, 0));
-    OGL_CALL(glBindVertexArray(0));
+    add_submesh(pyramid);
 
     OGL_CALL(glClearColor(0.81f, 0.81f, 0.8f, 1.0f));
 
@@ -123,10 +106,8 @@ glUniformBlockBinding(program, modIndex, 0);
 GLuint transIndex = glGetUniformBlockIndex(program, "Transformations");
 glUniformBlockBinding(program, transIndex, 1);
 
-    glEnable(GL_DEPTH_TEST);
+ glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
-
-    
 }
 
 void SimpleShapeApplication::frame() {
@@ -135,14 +116,13 @@ void SimpleShapeApplication::frame() {
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
-    OGL_CALL(glBindVertexArray(vao_));
-    OGL_CALL(glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, 0));
-    OGL_CALL(glBindVertexArray(0)); 
+    for (auto m : meshes_)
+        m->draw();
 }
 
 void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
     Application::framebuffer_resize_callback(w, h);
-    glViewport(0,0,w,h); 
+    glViewport(0, 0, w, h);
     camera()->set_aspect((float)w / h);
 }
 
