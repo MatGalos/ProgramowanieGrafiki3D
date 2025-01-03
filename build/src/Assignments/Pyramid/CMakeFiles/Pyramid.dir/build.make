@@ -118,9 +118,12 @@ src/Assignments/Pyramid/Pyramid: _deps/glfw-build/src/libglfw3.a
 src/Assignments/Pyramid/Pyramid: _deps/glm-build/glm/libglm.a
 src/Assignments/Pyramid/Pyramid: src/Application/libapplication.a
 src/Assignments/Pyramid/Pyramid: _deps/spdlog-build/libspdlog.a
+src/Assignments/Pyramid/Pyramid: src/XeEngine/libxe-engine.a
+src/Assignments/Pyramid/Pyramid: src/ObjectReader/libobjreader.a
 src/Assignments/Pyramid/Pyramid: /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks/OpenGL.framework
 src/Assignments/Pyramid/Pyramid: _deps/glfw-build/src/libglfw3.a
 src/Assignments/Pyramid/Pyramid: _deps/glm-build/glm/libglm.a
+src/Assignments/Pyramid/Pyramid: _deps/spdlog-build/libspdlog.a
 src/Assignments/Pyramid/Pyramid: src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Pyramid"
 	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Pyramid" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pyramid.dir/link.txt --verbose=$(VERBOSE)

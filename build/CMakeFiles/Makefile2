@@ -983,6 +983,8 @@ src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/glfw-build/src/CMakeFi
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: src/Application/CMakeFiles/application.dir/all
+src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: src/ObjectReader/CMakeFiles/objreader.dir/all
+src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: src/XeEngine/CMakeFiles/xe-engine.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/build.make src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/build.make src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=16,17,18 "Built target Pyramid"
@@ -990,7 +992,7 @@ src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: src/Application/CMakeFiles/a
 
 # Build rule for subdir invocation for target.
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 40
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 0
 .PHONY : src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/rule

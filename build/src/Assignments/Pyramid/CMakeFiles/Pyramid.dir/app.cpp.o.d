@@ -903,8 +903,6 @@ src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/app.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/glad/gl.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/KHR/khrplatform.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/application.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/istream \
@@ -962,60 +960,16 @@ src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/app.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iomanip \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glfw-src/include/GLFW/glfw3.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/spdlog.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/common.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/null_mutex.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/tweakme.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/calendar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/concepts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/day.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/month.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/month_weekday.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/weekday.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/monthday.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_day.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/literals.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/forward_list \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/fmt.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/bundled/format.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/bundled/base.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/registry.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/periodic_worker.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/thread \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/formatter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/jthread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/thread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/synchronous_factory.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/logger.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/backtracer.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/circular_q.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/log_msg.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/version.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/utils.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/glad/gl.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/3rdParty/glad/glad_4_1/glad/include/KHR/khrplatform.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Assignments/Pyramid/camera.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/glm.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/detail/_fixes.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/detail/setup.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/detail/../simd/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/float.h \
@@ -1206,123 +1160,77 @@ src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/app.cpp.o: \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/vector_relational.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/integer.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/detail/func_integer.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/scalar_constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../detail/setup.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/scalar_constants.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/constants.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Application/utils.h \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/detail/type_mat2x2.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/ext/scalar_constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/type_ptr.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/quaternion.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/matrix_transform.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../mat4x4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../vec2.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../vec3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../vec4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/matrix_projection.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/../gtc/constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/../geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/../trigonometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/../matrix.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/matrix_projection.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/matrix_clip_space.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/../ext/scalar_constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/matrix_clip_space.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/matrix_transform.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../ext/matrix_transform.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/matrix_transform.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../trigonometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../gtc/../matrix.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/qualifier.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_relational.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../vector_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../common.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/type_float.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/setup.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_common.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/scalar_constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/../geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/../exponential.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/../ext/vector_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../trigonometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../exponential.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_common.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_float.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/type_quat.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../detail/type_mat3x3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../detail/type_mat4x4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../detail/type_vec3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../detail/type_vec4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../ext/vector_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../ext/../vector_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../gtc/constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../gtc/matrix_transform.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/type_quat.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../trigonometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../exponential.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_common.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_float_precision.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_double.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_double_precision.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_trigonometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/scalar_constants.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_trigonometric.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_transform.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/quaternion_transform.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../detail/type_mat3x3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../detail/type_mat4x4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../detail/type_vec3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../detail/type_vec4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/quaternion.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../trigonometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../geometric.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../exponential.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/epsilon.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../detail/setup.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../detail/qualifier.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/epsilon.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../vector_relational.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../common.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/vec1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_bool1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../detail/type_vec1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_bool1_precision.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_float1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_float1_precision.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_double1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_double1_precision.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_int1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_int1_sized.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/vector_int1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/scalar_int_sized.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_uint1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/vector_uint1_sized.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/vector_uint1.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../gtc/../ext/../ext/scalar_uint_sized.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/matrix_transform.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat4x4.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../vec2.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../vec3.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../vec4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat2x2.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat2x3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat2x4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat3x2.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat3x3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat3x4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat4x2.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat4x3.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../mat4x4.hpp \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/type_ptr.inl \
-  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/matrix_transform.hpp
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/matrix_projection.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../gtc/constants.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../gtc/../ext/scalar_constants.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../gtc/../ext/../detail/setup.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../gtc/../ext/scalar_constants.inl \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../gtc/constants.inl \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../geometric.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../trigonometric.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../matrix.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/matrix_projection.inl \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/matrix_clip_space.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/../ext/scalar_constants.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/matrix_clip_space.inl \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/matrix_transform.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../ext/matrix_transform.inl \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/matrix_transform.inl \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../geometric.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../trigonometric.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../matrix.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Assignments/Pyramid/camera_controler.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/XeEngine/Mesh.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/spdlog.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/common.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/null_mutex.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/tweakme.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/calendar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/concepts.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/day.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/month.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/month_weekday.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/weekday.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/monthday.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_day.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/literals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/forward_list \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/fmt.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/bundled/format.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/fmt/bundled/base.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/registry.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/periodic_worker.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/formatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/jthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/thread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/this_thread.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/synchronous_factory.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/logger.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/backtracer.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/circular_q.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/details/log_msg.h \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/version.h

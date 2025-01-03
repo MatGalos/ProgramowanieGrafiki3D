@@ -1,22 +1,21 @@
-# Colors
-Termin oddania: 12.12.21 23:59 5 pkt. 
+Usuwając współrzędne i kolory dwóch wierzchołków oszczędzamy:
+2 * 6 * sizeof(GLhalf) = 2 * 6 * 4 bytes = 48 byte'ów
 
-1. Start the assignment by copying the `House` assignment folder to `Colors` folder as described  previously. 
-2. Now add the color data to the vertices. In the array holding the vertices, after coordinates of each vertex add a RGB color value. Please remember that in OpenGL the colors channels  take values from the interval [0,1]. 
-   So the data in vertex buffer should be arranged like this:    
-   ```
-   x,y,z,r,g,b,x,y,z,r,g,b,x,y,z,r,g,b,...
-   ```
-3. After compiling and  running the application you will probably see something very strange or nothing at all. This is because we have changed the format of the data in the vertex buffer. Please modify the `glVertexAttribPointer` function call to make it work again (this requires changing a single parameter).
+Rozmiar 9 indeksów (elementów wektora indices) wynosi:
+9 * sizeof(GLushort) = 9 * 2 bytes = 18 byte'ów
 
-4. If the house apears on the screen we can start connecting the colors from the vertex buffer. To this end please add an input variable (attribute) for colors in the vertex shader code with `location=1`.  Please verify if everythin is still working. 
+Czyli oszczędzamy 48 - 18 = 30 byte'ów.
+W heapie (tam lądują elementy wektorów). Tworząc nowy wektor wziąć pod uwagę można jeszcze 24 byte'y (sizeof(std::vector<GLushort>, tj. pointery po 8 byte'ów początku, końca i capacity wektora) które lądują na stacku. Wtedy mamy 30 - 24 = 6 byte'ów. Jest to jednak śliskie, valgrindem nie udało mi się tego dowieść empirycznie, alokator mnie trolował/niewystarczająco znam temat. Do analizy zachowania alokatora mógłbym użyc Godbolta, ale za chwilę deadline złożenia projektu.
 
-5. In the cpu code add  apropriate `glVertexAttribPointer` and `glEnableVertexAttribArray` that will enable for colors to be read from the vertex buffer. Everyting should still be working fine. 
+Jak zaoszczędzić więcej pamięci:
+Można naruszyć integralność domku - kolorując go na jednolity kolor lub używając gradientu dla wierzchołkow dachu. Tak moglibysmy zaoszczędzić kolejne 48 bajtów (usunęlibyśmy kolejne dwie pozycje wierzchołka+kolor)
 
-6. Finally we have to pass colors from vertex shader to fragment shader. To this end add an output variable for color in the vertex shader and in the `main` function assign color attribute to it. Then add an input variable in fragment shader with **same type and name**. And finally in main function assign this variable to the  output of the fragment shader. 
+Nie naruszając integralności domku:
+Wg dokumentacji https://www.khronos.org/opengl/wiki/Small_Float_Formats oraz https://www.khronos.org/opengl/wiki/Vertex_Specification można skorzystać z GLhalf w miejscu GLfloat w atrybutach wierzchołków. GLhalf waży 2 byte'y. Tracilibyśmy na precyzji, ale to nie byłoby istotne dla wartości x,y,z,r,g,b naszego domku.
+Korzystając z half-precision floatów okroilibyśmy wagę wektora vertices o połowę, z 168 bajtów na 84 bajty (czyli sumując z 30 bajtami z indeksów - zaoszczędzilibyśmy 114 bajtów).
 
-7. Play with colors to see how the colors are interpolated.
+Dodatkowo zastanawiałem się nad rozbiciem wektora vertices na wektory positions i colors (i np. złączyć je w struct). W ten sposób moglibyśmy zindeksować jeszcze dwa x,y,z, oraz osobno zindeksować kolory - zostałyby tylko jeden czerwony i jeden zielony:
+{1.0f, 0.0f, 0.0f,
+0.0f, 1.0f, 0.0f};
 
-8. Color the roof of the house red and the walls green. 
-   
-
+Na oko jednak gra nie wydaje mi się warta świeczki. Taka optymalizacja mogłaby mieć sens tylko dla trudniejszego projektu niż domek (z większą ilością atrybutów wierzchołków) lub w systemach wbudowanych z baaardzo ograniczonymi zasobami. Nie miałem okazji też potwierdzić tego w kodzie, równie dobrze wcale bym nie zoptymalizował zbytnio/w ogóle pamięci, a tylko dopisał sporo linii kodu.

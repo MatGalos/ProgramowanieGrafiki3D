@@ -544,6 +544,7 @@
 			"path" : "src/Assignments/House/CMakeLists.txt"
 		},
 		{
+<<<<<<<< Updated upstream:build/.cmake/api/v1/reply/cmakeFiles-v1-01ceb65d81e688a6383e.json
 			"path" : "src/Assignments/Colors/CMakeLists.txt"
 		},
 		{
@@ -556,6 +557,8 @@
 			"path" : "src/Assignments/PVM/CMakeLists.txt"
 		},
 		{
+========
+>>>>>>>> Stashed changes:build/.cmake/api/v1/reply/cmakeFiles-v1-557df92093b9a18af3e5.json
 			"path" : "src/Assignments/Pyramid/CMakeLists.txt"
 		}
 	],
