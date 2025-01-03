@@ -23,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/spdlog-src/cmake/ide.cmake"
   "_deps/spdlog-src/cmake/utils.cmake"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Application/CMakeLists.txt"
+  "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/CameraMovement/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Colors/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/House/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Indices/CMakeLists.txt"
@@ -128,6 +129,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Assignments/Pyramid/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/Resizing/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/Zoom/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Assignments/CameraMovement/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -151,4 +153,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/DependInfo.cmake"
   "src/Assignments/Resizing/CMakeFiles/Resizing.dir/DependInfo.cmake"
   "src/Assignments/Zoom/CMakeFiles/Zoom.dir/DependInfo.cmake"
+  "src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/DependInfo.cmake"
   )

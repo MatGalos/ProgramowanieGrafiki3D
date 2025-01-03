@@ -408,6 +408,19 @@ Zoom/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/Zoom/CMakeFiles/Zoom.dir/build.make src/Assignments/Zoom/CMakeFiles/Zoom.dir/build
 .PHONY : Zoom/fast
 
+#=============================================================================
+# Target rules for targets named CameraMovement
+
+# Build rule for target.
+CameraMovement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CameraMovement
+.PHONY : CameraMovement
+
+# fast build rule for target.
+CameraMovement/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/build.make src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/build
+.PHONY : CameraMovement/fast
+
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
 
@@ -446,6 +459,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... CameraMovement"
 	@echo "... Colors"
 	@echo "... House"
 	@echo "... Indices"
