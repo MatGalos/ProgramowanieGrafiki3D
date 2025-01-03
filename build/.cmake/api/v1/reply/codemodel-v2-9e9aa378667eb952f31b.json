@@ -24,7 +24,8 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -36,7 +37,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -46,7 +47,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-091d3b753f8fd585d167.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-1e4ace488a7d57857e8b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -56,13 +57,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-b1caf2f5126603570a35.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-2961d8705e968688dbe7.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -72,8 +73,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						13,
-						18
+						14,
+						19
 					]
 				},
 				{
@@ -103,7 +104,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -118,7 +119,7 @@
 					"source" : "build/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -133,7 +134,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -148,7 +149,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -163,7 +164,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						19
+						20
 					]
 				},
 				{
@@ -178,7 +179,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -193,7 +194,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						4
+						8
 					]
 				},
 				{
@@ -253,7 +254,7 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -313,7 +314,7 @@
 					"source" : "src/Assignments/Zoom",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -329,6 +330,21 @@
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"build" : "src/Assignments/MeshesMaterials",
+					"jsonFile" : "directory-src.Assignments.MeshesMaterials-Release-13643c46ae22ab4e55ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "src/Assignments/MeshesMaterials",
+					"targetIndexes" : 
+					[
+						4
 					]
 				}
 			],
@@ -354,7 +370,8 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18
 					],
 					"directoryIndexes" : 
 					[
@@ -363,7 +380,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -376,9 +393,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						13,
-						17,
-						18
+						14,
+						18,
+						19
 					]
 				},
 				{
@@ -391,7 +408,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -403,7 +420,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -415,7 +432,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -427,7 +444,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -439,7 +456,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						19
+						20
 					]
 				},
 				{
@@ -451,7 +468,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -459,11 +476,11 @@
 					[
 						10
 					],
-					"name" : "MeshesMaterials",
+					"name" : "Triangle",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						8
 					]
 				},
 				{
@@ -511,7 +528,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -559,7 +576,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -572,6 +589,18 @@
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "MeshesMaterials",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
 					]
 				}
 			],
@@ -606,11 +635,11 @@
 					"projectIndex" : 11
 				},
 				{
-					"directoryIndex" : 10,
-					"id" : "MeshesMaterials::@ee163803f4c0a4b34178",
-					"jsonFile" : "target-MeshesMaterials-Release-a17350a0901afc9b8a9b.json",
+					"directoryIndex" : 20,
+					"id" : "MeshesMaterials::@d485c1eb949b9afbb566",
+					"jsonFile" : "target-MeshesMaterials-Release-64a75717b19ff1540af8.json",
 					"name" : "MeshesMaterials",
-					"projectIndex" : 8
+					"projectIndex" : 18
 				},
 				{
 					"directoryIndex" : 15,
@@ -632,6 +661,13 @@
 					"jsonFile" : "target-Resizing-Release-3a576da3cc2f4be3f07a.json",
 					"name" : "Resizing",
 					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Triangle::@ee163803f4c0a4b34178",
+					"jsonFile" : "target-Triangle-Release-0eda99d845c2af88d0c5.json",
+					"name" : "Triangle",
+					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 14,

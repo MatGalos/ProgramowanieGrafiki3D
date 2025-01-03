@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Assignments/Triangle/MeshesMaterials"
+			"path" : "src/Assignments/Triangle/Triangle"
 		}
 	],
 	"backtrace" : 1,
@@ -135,7 +135,7 @@
 				},
 				{
 					"backtrace" : 10,
-					"define" : "PROJECT_NAME=\"MeshesMaterials\""
+					"define" : "PROJECT_NAME=\"Triangle\""
 				},
 				{
 					"backtrace" : 11,
@@ -232,7 +232,7 @@
 			"id" : "xe-engine::@6de0204676fa90e31894"
 		}
 	],
-	"id" : "MeshesMaterials::@ee163803f4c0a4b34178",
+	"id" : "Triangle::@ee163803f4c0a4b34178",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -321,8 +321,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "MeshesMaterials",
-	"nameOnDisk" : "MeshesMaterials",
+	"name" : "Triangle",
+	"nameOnDisk" : "Triangle",
 	"paths" : 
 	{
 		"build" : "src/Assignments/Triangle",

@@ -162,25 +162,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/rule:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/rule
-.PHONY : src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/rule
+src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule:
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule
+.PHONY : src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule
 
 # Convenience name for target.
-MeshesMaterials: src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/rule
-.PHONY : MeshesMaterials
+Triangle: src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule
+.PHONY : Triangle
 
 # fast build rule for target.
-MeshesMaterials/fast:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build
-.PHONY : MeshesMaterials/fast
+Triangle/fast:
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/build
+.PHONY : Triangle/fast
 
 app.o: app.cpp.o
 .PHONY : app.o
 
 # target to build an object file
 app.cpp.o:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/app.cpp.o
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.o
 .PHONY : app.cpp.o
 
 app.i: app.cpp.i
@@ -188,7 +188,7 @@ app.i: app.cpp.i
 
 # target to preprocess a source file
 app.cpp.i:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/app.cpp.i
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.i
 .PHONY : app.cpp.i
 
 app.s: app.cpp.s
@@ -196,7 +196,7 @@ app.s: app.cpp.s
 
 # target to generate assembly for a file
 app.cpp.s:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/app.cpp.s
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.s
 .PHONY : app.cpp.s
 
 main.o: main.cpp.o
@@ -204,7 +204,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/main.cpp.o
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -212,7 +212,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/main.cpp.i
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -220,7 +220,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/main.cpp.s
+	cd "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build" && $(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -235,7 +235,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... MeshesMaterials"
+	@echo "... Triangle"
 	@echo "... app.o"
 	@echo "... app.i"
 	@echo "... app.s"
