@@ -36,27 +36,15 @@ public:
     void set_controler(CameraControler *controler) { controler_ = controler; }
 
     void set_camera(Camera *camera) { camera_ = camera; }
-
     Camera *camera() { return camera_; }
+    ~SimpleShapeApplication() {
+    if (camera_) {
+        delete camera_;
+    }
+    }
     
     void add_submesh(xe::Mesh *mesh) {
         meshes_.push_back(mesh);
-    }
-
-    ~SimpleShapeApplication() {
-        if (camera_) {
-            delete camera_;
-        }
-        if (controler_) {
-            delete controler_;
-        }
-        if (!meshes_.empty()) {
-            for (auto p : meshes_)
-            {
-                delete p;
-            }
-            meshes_.clear();
-        }
     }
 
 private:
@@ -66,14 +54,6 @@ private:
     Camera *camera_;
 
     CameraControler *controler_;
-
-    float fov_;
-    float aspect_;
-    float near_;
-    float far_; 
-
-    glm::mat4 P_;
-    glm::mat4 V_; 
 
     std::vector<xe::Mesh*> meshes_; 
 };
