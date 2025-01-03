@@ -57,10 +57,16 @@ void SimpleShapeApplication::init() {
     glm::vec3 up_vector = { 0,1,0 };
     glm::mat4 V;
     glm::mat4 P;
-    V = glm::lookAt(camera_position, zero, up_vector);
-    P = glm::perspective(1.0 * glm::radians(90.0f), 1.0 * frame_buffer_size().first / frame_buffer_size().second, 0.1, 20.0);
+    int w, h;
+    std::tie(w, h) = frame_buffer_size();
+    aspect_ = (float)w/h;
+    fov_ = glm::pi<float>()/4.0;
+    near_ = 0.1f;
+    far_ = 100.0f;
+    P_ = glm::perspective(fov_, aspect_, near_, far_); 
+    V_ = glm::lookAt(camera_position, zero, up_vector);
 
-    PVM = P * V * M;
+    PVM = P_ * V_ * M;
 
     glm::mat4 T = glm::translate(PVM, glm::vec3(0, 0, 0));
 
@@ -115,7 +121,6 @@ void SimpleShapeApplication::init() {
 
     OGL_CALL(glClearColor(0.81f, 0.81f, 0.8f, 1.0f));
 
-    auto [w, h] = frame_buffer_size();
     OGL_CALL(glViewport(0, 0, w, h));
 
     OGL_CALL(glUseProgram(program));
@@ -132,7 +137,19 @@ glUniformBlockBinding(program, transIndex, 1);
 }
 
 void SimpleShapeApplication::frame() {
+    auto PVM = P_ * V_;
+    glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
+
     OGL_CALL(glBindVertexArray(vao_));
     OGL_CALL(glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, 0));
-    OGL_CALL(glBindVertexArray(0));
+    OGL_CALL(glBindVertexArray(0)); 
+}
+
+void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
+    Application::framebuffer_resize_callback(w, h);
+    glViewport(0,0,w,h); 
+    aspect_ = (float) w / h;
+    P_ = glm::perspective(fov_, aspect_, near_, far_);
 }

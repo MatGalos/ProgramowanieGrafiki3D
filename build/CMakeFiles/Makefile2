@@ -652,8 +652,8 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/clean:
 # Target rules for target src/Application/CMakeFiles/application.dir
 
 # All Build rule for target.
-src/Application/CMakeFiles/application.dir/all: CMakeFiles/glad.dir/all
 src/Application/CMakeFiles/application.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Application/CMakeFiles/application.dir/all: CMakeFiles/glad.dir/all
 src/Application/CMakeFiles/application.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Application/CMakeFiles/application.dir/build.make src/Application/CMakeFiles/application.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Application/CMakeFiles/application.dir/build.make src/Application/CMakeFiles/application.dir/build
@@ -685,8 +685,8 @@ src/Application/CMakeFiles/application.dir/clean:
 # Target rules for target src/ObjectReader/CMakeFiles/objreader.dir
 
 # All Build rule for target.
-src/ObjectReader/CMakeFiles/objreader.dir/all: CMakeFiles/glad.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/ObjectReader/CMakeFiles/objreader.dir/all: CMakeFiles/glad.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ObjectReader/CMakeFiles/objreader.dir/build.make src/ObjectReader/CMakeFiles/objreader.dir/depend
@@ -719,8 +719,8 @@ src/ObjectReader/CMakeFiles/objreader.dir/clean:
 # Target rules for target src/XeEngine/CMakeFiles/xe-engine.dir
 
 # All Build rule for target.
-src/XeEngine/CMakeFiles/xe-engine.dir/all: CMakeFiles/glad.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/XeEngine/CMakeFiles/xe-engine.dir/all: CMakeFiles/glad.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: src/ObjectReader/CMakeFiles/objreader.dir/all
@@ -754,8 +754,8 @@ src/XeEngine/CMakeFiles/xe-engine.dir/clean:
 # Target rules for target src/Engine/CMakeFiles/engine.dir
 
 # All Build rule for target.
-src/Engine/CMakeFiles/engine.dir/all: CMakeFiles/glad.dir/all
 src/Engine/CMakeFiles/engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Engine/CMakeFiles/engine.dir/all: CMakeFiles/glad.dir/all
 src/Engine/CMakeFiles/engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Engine/CMakeFiles/engine.dir/build.make src/Engine/CMakeFiles/engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Engine/CMakeFiles/engine.dir/build.make src/Engine/CMakeFiles/engine.dir/build
@@ -787,8 +787,8 @@ src/Engine/CMakeFiles/engine.dir/clean:
 # Target rules for target src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir
 
 # All Build rule for target.
-src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -824,8 +824,8 @@ src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/clean:
 # Target rules for target src/Assignments/House/CMakeFiles/House.dir
 
 # All Build rule for target.
-src/Assignments/House/CMakeFiles/House.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/House/CMakeFiles/House.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -861,8 +861,8 @@ src/Assignments/House/CMakeFiles/House.dir/clean:
 # Target rules for target src/Assignments/Colors/CMakeFiles/Colors.dir
 
 # All Build rule for target.
-src/Assignments/Colors/CMakeFiles/Colors.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Colors/CMakeFiles/Colors.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -896,8 +896,8 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/clean:
 # Target rules for target src/Assignments/Indices/CMakeFiles/Indices.dir
 
 # All Build rule for target.
-src/Assignments/Indices/CMakeFiles/Indices.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Indices/CMakeFiles/Indices.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -931,8 +931,8 @@ src/Assignments/Indices/CMakeFiles/Indices.dir/clean:
 # Target rules for target src/Assignments/Uniforms/CMakeFiles/Uniforms.dir
 
 # All Build rule for target.
-src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -966,8 +966,8 @@ src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/clean:
 # Target rules for target src/Assignments/PVM/CMakeFiles/PVM.dir
 
 # All Build rule for target.
-src/Assignments/PVM/CMakeFiles/PVM.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/PVM/CMakeFiles/PVM.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -1001,8 +1001,8 @@ src/Assignments/PVM/CMakeFiles/PVM.dir/clean:
 # Target rules for target src/Assignments/Pyramid/CMakeFiles/Pyramid.dir
 
 # All Build rule for target.
-src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -1038,8 +1038,8 @@ src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/clean:
 # Target rules for target src/Assignments/Resizing/CMakeFiles/Resizing.dir
 
 # All Build rule for target.
-src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: CMakeFiles/glad.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: src/Application/CMakeFiles/application.dir/all

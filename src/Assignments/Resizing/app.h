@@ -22,7 +22,7 @@ public:
 
     void frame() override;
 
-    //void framebuffer_resize_callback(int w, int h) override;
+    void framebuffer_resize_callback(int w, int h) override;
 
     void scroll_callback(double xoffset, double yoffset) override {
          Application::scroll_callback(xoffset, yoffset);
@@ -66,6 +66,14 @@ private:
     Camera *camera_;
 
     CameraControler *controler_;
+
+    float fov_;
+    float aspect_;
+    float near_;
+    float far_; 
+
+    glm::mat4 P_;
+    glm::mat4 V_; 
 
     std::vector<xe::Mesh*> meshes_; 
 };
