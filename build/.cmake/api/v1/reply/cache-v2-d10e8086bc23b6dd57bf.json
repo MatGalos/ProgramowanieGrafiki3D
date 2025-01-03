@@ -1003,7 +1003,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "20"
+			"value" : "21"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2355,7 +2355,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Triangle"
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/MeshesMaterials"
 		},
 		{
 			"name" : "MeshesMaterials_IS_TOP_LEVEL",
@@ -2379,7 +2379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle"
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/MeshesMaterials"
 		},
 		{
 			"name" : "OBJReader_BINARY_DIR",
@@ -2924,6 +2924,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "OFF"
+		},
+		{
+			"name" : "Triangle_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Triangle"
+		},
+		{
+			"name" : "Triangle_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Triangle_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle"
 		},
 		{
 			"name" : "Uniforms_BINARY_DIR",

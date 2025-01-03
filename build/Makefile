@@ -292,17 +292,17 @@ engine/fast:
 .PHONY : engine/fast
 
 #=============================================================================
-# Target rules for targets named MeshesMaterials
+# Target rules for targets named Triangle
 
 # Build rule for target.
-MeshesMaterials: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MeshesMaterials
-.PHONY : MeshesMaterials
+Triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Triangle
+.PHONY : Triangle
 
 # fast build rule for target.
-MeshesMaterials/fast:
-	$(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build
-.PHONY : MeshesMaterials/fast
+Triangle/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/Triangle.dir/build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/build
+.PHONY : Triangle/fast
 
 #=============================================================================
 # Target rules for targets named House
@@ -421,6 +421,19 @@ CameraMovement/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/build.make src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/build
 .PHONY : CameraMovement/fast
 
+#=============================================================================
+# Target rules for targets named MeshesMaterials
+
+# Build rule for target.
+MeshesMaterials: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MeshesMaterials
+.PHONY : MeshesMaterials
+
+# fast build rule for target.
+MeshesMaterials/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/build
+.PHONY : MeshesMaterials/fast
+
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
 
@@ -467,6 +480,7 @@ help:
 	@echo "... PVM"
 	@echo "... Pyramid"
 	@echo "... Resizing"
+	@echo "... Triangle"
 	@echo "... Uniforms"
 	@echo "... Zoom"
 	@echo "... application"

@@ -566,6 +566,9 @@
 		},
 		{
 			"path" : "src/Assignments/CameraMovement/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/MeshesMaterials/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
