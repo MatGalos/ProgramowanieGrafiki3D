@@ -79,6 +79,7 @@ all: src/Assignments/Uniforms/all
 all: src/Assignments/PVM/all
 all: src/Assignments/Pyramid/all
 all: src/Assignments/Resizing/all
+all: src/Assignments/Zoom/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -98,6 +99,7 @@ codegen: src/Assignments/Uniforms/codegen
 codegen: src/Assignments/PVM/codegen
 codegen: src/Assignments/Pyramid/codegen
 codegen: src/Assignments/Resizing/codegen
+codegen: src/Assignments/Zoom/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -116,6 +118,7 @@ preinstall: src/Assignments/Uniforms/preinstall
 preinstall: src/Assignments/PVM/preinstall
 preinstall: src/Assignments/Pyramid/preinstall
 preinstall: src/Assignments/Resizing/preinstall
+preinstall: src/Assignments/Zoom/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -135,6 +138,7 @@ clean: src/Assignments/Uniforms/clean
 clean: src/Assignments/PVM/clean
 clean: src/Assignments/Pyramid/clean
 clean: src/Assignments/Resizing/clean
+clean: src/Assignments/Zoom/clean
 .PHONY : clean
 
 #=============================================================================
@@ -406,6 +410,25 @@ src/Assignments/Uniforms/clean: src/Assignments/Uniforms/CMakeFiles/Uniforms.dir
 .PHONY : src/Assignments/Uniforms/clean
 
 #=============================================================================
+# Directory level rules for directory src/Assignments/Zoom
+
+# Recursive "all" directory target.
+src/Assignments/Zoom/all: src/Assignments/Zoom/CMakeFiles/Zoom.dir/all
+.PHONY : src/Assignments/Zoom/all
+
+# Recursive "codegen" directory target.
+src/Assignments/Zoom/codegen: src/Assignments/Zoom/CMakeFiles/Zoom.dir/codegen
+.PHONY : src/Assignments/Zoom/codegen
+
+# Recursive "preinstall" directory target.
+src/Assignments/Zoom/preinstall:
+.PHONY : src/Assignments/Zoom/preinstall
+
+# Recursive "clean" directory target.
+src/Assignments/Zoom/clean: src/Assignments/Zoom/CMakeFiles/Zoom.dir/clean
+.PHONY : src/Assignments/Zoom/clean
+
+#=============================================================================
 # Directory level rules for directory src/Engine
 
 # Recursive "all" directory target.
@@ -469,7 +492,7 @@ src/XeEngine/clean: src/XeEngine/CMakeFiles/xe-engine.dir/clean
 CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=32 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=35 "Built target glad"
 .PHONY : CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -531,7 +554,7 @@ _deps/glfw-build/CMakeFiles/uninstall.dir/clean:
 _deps/glfw-build/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target glfw"
 .PHONY : _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -562,7 +585,7 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/clean:
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=67 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=70 "Built target update_mappings"
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -593,7 +616,7 @@ _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean:
 _deps/glm-build/glm/CMakeFiles/glm.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glm-build/glm/CMakeFiles/glm.dir/build.make _deps/glm-build/glm/CMakeFiles/glm.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glm-build/glm/CMakeFiles/glm.dir/build.make _deps/glm-build/glm/CMakeFiles/glm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=55,56 "Built target glm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=58,59 "Built target glm"
 .PHONY : _deps/glm-build/glm/CMakeFiles/glm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -624,7 +647,7 @@ _deps/glm-build/glm/CMakeFiles/glm.dir/clean:
 _deps/spdlog-build/CMakeFiles/spdlog.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=59,60,61,62,63,64,65,66 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=62,63,64,65,66,67,68,69 "Built target spdlog"
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -652,12 +675,12 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/clean:
 # Target rules for target src/Application/CMakeFiles/application.dir
 
 # All Build rule for target.
-src/Application/CMakeFiles/application.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Application/CMakeFiles/application.dir/all: CMakeFiles/glad.dir/all
+src/Application/CMakeFiles/application.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Application/CMakeFiles/application.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Application/CMakeFiles/application.dir/build.make src/Application/CMakeFiles/application.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Application/CMakeFiles/application.dir/build.make src/Application/CMakeFiles/application.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=25,26,27,28 "Built target application"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=28,29,30,31 "Built target application"
 .PHONY : src/Application/CMakeFiles/application.dir/all
 
 # Build rule for subdir invocation for target.
@@ -685,13 +708,13 @@ src/Application/CMakeFiles/application.dir/clean:
 # Target rules for target src/ObjectReader/CMakeFiles/objreader.dir
 
 # All Build rule for target.
-src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: CMakeFiles/glad.dir/all
+src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/ObjectReader/CMakeFiles/objreader.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ObjectReader/CMakeFiles/objreader.dir/build.make src/ObjectReader/CMakeFiles/objreader.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ObjectReader/CMakeFiles/objreader.dir/build.make src/ObjectReader/CMakeFiles/objreader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=57,58 "Built target objreader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=60,61 "Built target objreader"
 .PHONY : src/ObjectReader/CMakeFiles/objreader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -719,14 +742,14 @@ src/ObjectReader/CMakeFiles/objreader.dir/clean:
 # Target rules for target src/XeEngine/CMakeFiles/xe-engine.dir
 
 # All Build rule for target.
-src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: CMakeFiles/glad.dir/all
+src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/XeEngine/CMakeFiles/xe-engine.dir/all: src/ObjectReader/CMakeFiles/objreader.dir/all
 	$(MAKE) $(MAKESILENT) -f src/XeEngine/CMakeFiles/xe-engine.dir/build.make src/XeEngine/CMakeFiles/xe-engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/XeEngine/CMakeFiles/xe-engine.dir/build.make src/XeEngine/CMakeFiles/xe-engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=68,69,70,71,72,73,74,75,76 "Built target xe-engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=71,72,73,74,75,76,77,78,79 "Built target xe-engine"
 .PHONY : src/XeEngine/CMakeFiles/xe-engine.dir/all
 
 # Build rule for subdir invocation for target.
@@ -754,12 +777,12 @@ src/XeEngine/CMakeFiles/xe-engine.dir/clean:
 # Target rules for target src/Engine/CMakeFiles/engine.dir
 
 # All Build rule for target.
-src/Engine/CMakeFiles/engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Engine/CMakeFiles/engine.dir/all: CMakeFiles/glad.dir/all
+src/Engine/CMakeFiles/engine.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Engine/CMakeFiles/engine.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Engine/CMakeFiles/engine.dir/build.make src/Engine/CMakeFiles/engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Engine/CMakeFiles/engine.dir/build.make src/Engine/CMakeFiles/engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=29,30,31 "Built target engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=32,33,34 "Built target engine"
 .PHONY : src/Engine/CMakeFiles/engine.dir/all
 
 # Build rule for subdir invocation for target.
@@ -787,8 +810,8 @@ src/Engine/CMakeFiles/engine.dir/clean:
 # Target rules for target src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir
 
 # All Build rule for target.
-src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -824,8 +847,8 @@ src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/clean:
 # Target rules for target src/Assignments/House/CMakeFiles/House.dir
 
 # All Build rule for target.
-src/Assignments/House/CMakeFiles/House.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/House/CMakeFiles/House.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/House/CMakeFiles/House.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -861,8 +884,8 @@ src/Assignments/House/CMakeFiles/House.dir/clean:
 # Target rules for target src/Assignments/Colors/CMakeFiles/Colors.dir
 
 # All Build rule for target.
-src/Assignments/Colors/CMakeFiles/Colors.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/Colors/CMakeFiles/Colors.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Colors/CMakeFiles/Colors.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -896,8 +919,8 @@ src/Assignments/Colors/CMakeFiles/Colors.dir/clean:
 # Target rules for target src/Assignments/Indices/CMakeFiles/Indices.dir
 
 # All Build rule for target.
-src/Assignments/Indices/CMakeFiles/Indices.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/Indices/CMakeFiles/Indices.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Indices/CMakeFiles/Indices.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -931,8 +954,8 @@ src/Assignments/Indices/CMakeFiles/Indices.dir/clean:
 # Target rules for target src/Assignments/Uniforms/CMakeFiles/Uniforms.dir
 
 # All Build rule for target.
-src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -966,8 +989,8 @@ src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/clean:
 # Target rules for target src/Assignments/PVM/CMakeFiles/PVM.dir
 
 # All Build rule for target.
-src/Assignments/PVM/CMakeFiles/PVM.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/PVM/CMakeFiles/PVM.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/PVM/CMakeFiles/PVM.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -1001,8 +1024,8 @@ src/Assignments/PVM/CMakeFiles/PVM.dir/clean:
 # Target rules for target src/Assignments/Pyramid/CMakeFiles/Pyramid.dir
 
 # All Build rule for target.
-src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -1038,8 +1061,8 @@ src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/clean:
 # Target rules for target src/Assignments/Resizing/CMakeFiles/Resizing.dir
 
 # All Build rule for target.
-src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/all: src/Application/CMakeFiles/application.dir/all
@@ -1070,6 +1093,43 @@ src/Assignments/Resizing/CMakeFiles/Resizing.dir/codegen:
 src/Assignments/Resizing/CMakeFiles/Resizing.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/Resizing/CMakeFiles/Resizing.dir/build.make src/Assignments/Resizing/CMakeFiles/Resizing.dir/clean
 .PHONY : src/Assignments/Resizing/CMakeFiles/Resizing.dir/clean
+
+#=============================================================================
+# Target rules for target src/Assignments/Zoom/CMakeFiles/Zoom.dir
+
+# All Build rule for target.
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/all: CMakeFiles/glad.dir/all
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/all: _deps/glm-build/glm/CMakeFiles/glm.dir/all
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/all: src/Application/CMakeFiles/application.dir/all
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/all: src/ObjectReader/CMakeFiles/objreader.dir/all
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/all: src/XeEngine/CMakeFiles/xe-engine.dir/all
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Zoom/CMakeFiles/Zoom.dir/build.make src/Assignments/Zoom/CMakeFiles/Zoom.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Zoom/CMakeFiles/Zoom.dir/build.make src/Assignments/Zoom/CMakeFiles/Zoom.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" --progress-num=25,26,27 "Built target Zoom"
+.PHONY : src/Assignments/Zoom/CMakeFiles/Zoom.dir/all
+
+# Build rule for subdir invocation for target.
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 51
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Assignments/Zoom/CMakeFiles/Zoom.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/CMakeFiles" 0
+.PHONY : src/Assignments/Zoom/CMakeFiles/Zoom.dir/rule
+
+# Convenience name for target.
+Zoom: src/Assignments/Zoom/CMakeFiles/Zoom.dir/rule
+.PHONY : Zoom
+
+# codegen rule for target.
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Zoom/CMakeFiles/Zoom.dir/build.make src/Assignments/Zoom/CMakeFiles/Zoom.dir/codegen
+.PHONY : src/Assignments/Zoom/CMakeFiles/Zoom.dir/codegen
+
+# clean rule for target.
+src/Assignments/Zoom/CMakeFiles/Zoom.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Zoom/CMakeFiles/Zoom.dir/build.make src/Assignments/Zoom/CMakeFiles/Zoom.dir/clean
+.PHONY : src/Assignments/Zoom/CMakeFiles/Zoom.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -395,6 +395,19 @@ Resizing/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/Resizing/CMakeFiles/Resizing.dir/build.make src/Assignments/Resizing/CMakeFiles/Resizing.dir/build
 .PHONY : Resizing/fast
 
+#=============================================================================
+# Target rules for targets named Zoom
+
+# Build rule for target.
+Zoom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Zoom
+.PHONY : Zoom
+
+# fast build rule for target.
+Zoom/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Zoom/CMakeFiles/Zoom.dir/build.make src/Assignments/Zoom/CMakeFiles/Zoom.dir/build
+.PHONY : Zoom/fast
+
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
 
@@ -441,6 +454,7 @@ help:
 	@echo "... Pyramid"
 	@echo "... Resizing"
 	@echo "... Uniforms"
+	@echo "... Zoom"
 	@echo "... application"
 	@echo "... engine"
 	@echo "... glad"
