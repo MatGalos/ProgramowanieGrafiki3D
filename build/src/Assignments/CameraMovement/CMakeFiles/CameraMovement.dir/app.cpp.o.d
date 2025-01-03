@@ -1184,6 +1184,7 @@ src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/app.cpp.o: \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../geometric.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../trigonometric.hpp \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/glm-src/glm/gtc/../matrix.hpp \
+  /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Assignments/CameraMovement/rotation.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/Assignments/CameraMovement/camera_controler.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/src/XeEngine/Mesh.h \
   /Users/mateuszgalos/uczelnia/Programowanie\ grafiki\ 3D\ zaliczenie/build/_deps/spdlog-src/include/spdlog/spdlog.h \

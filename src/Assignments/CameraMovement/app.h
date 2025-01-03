@@ -29,9 +29,9 @@ public:
          camera()->zoom(yoffset / 30.0f);
     }
 
-    //virtual void cursor_position_callback(double x, double y) override;
+    virtual void cursor_position_callback(double x, double y) override;
 
-    //virtual void mouse_button_callback(int button, int action, int mods) override;
+    virtual void mouse_button_callback(int button, int action, int mods) override;
 
     void set_controler(CameraControler *controler) { controler_ = controler; }
 
