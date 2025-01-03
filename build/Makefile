@@ -369,6 +369,19 @@ PVM/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/PVM/CMakeFiles/PVM.dir/build.make src/Assignments/PVM/CMakeFiles/PVM.dir/build
 .PHONY : PVM/fast
 
+#=============================================================================
+# Target rules for targets named Pyramid
+
+# Build rule for target.
+Pyramid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Pyramid
+.PHONY : Pyramid
+
+# fast build rule for target.
+Pyramid/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/build.make src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/build
+.PHONY : Pyramid/fast
+
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
 
@@ -412,6 +425,7 @@ help:
 	@echo "... Indices"
 	@echo "... MeshesMaterials"
 	@echo "... PVM"
+	@echo "... Pyramid"
 	@echo "... Uniforms"
 	@echo "... application"
 	@echo "... engine"
