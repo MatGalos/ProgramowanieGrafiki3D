@@ -28,6 +28,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Indices/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/PVM/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Pyramid/CMakeLists.txt"
+  "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Resizing/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Uniforms/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Engine/CMakeLists.txt"
@@ -124,6 +125,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Assignments/Uniforms/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/PVM/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/Pyramid/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Assignments/Resizing/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -145,4 +147,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/DependInfo.cmake"
   "src/Assignments/PVM/CMakeFiles/PVM.dir/DependInfo.cmake"
   "src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/DependInfo.cmake"
+  "src/Assignments/Resizing/CMakeFiles/Resizing.dir/DependInfo.cmake"
   )

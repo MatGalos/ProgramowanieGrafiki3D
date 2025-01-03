@@ -1003,11 +1003,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<<< Updated upstream:build/.cmake/api/v1/reply/cache-v2-98caa43c6850d38404b3.json
-			"value" : "17"
-========
-			"value" : "13"
->>>>>>>> Stashed changes:build/.cmake/api/v1/reply/cache-v2-272498e771a833b7d848.json
+			"value" : "18"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2450,7 +2446,6 @@
 			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks/OpenGL.framework"
 		},
 		{
-<<<<<<<< Updated upstream:build/.cmake/api/v1/reply/cache-v2-98caa43c6850d38404b3.json
 			"name" : "PVM_BINARY_DIR",
 			"properties" : 
 			[
@@ -2487,8 +2482,6 @@
 			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/PVM"
 		},
 		{
-========
->>>>>>>> Stashed changes:build/.cmake/api/v1/reply/cache-v2-272498e771a833b7d848.json
 			"name" : "Pyramid_BINARY_DIR",
 			"properties" : 
 			[
@@ -2523,6 +2516,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Pyramid"
+		},
+		{
+			"name" : "Resizing_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Resizing"
+		},
+		{
+			"name" : "Resizing_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Resizing_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Resizing"
 		},
 		{
 			"name" : "SPDLOG_BUILD_ALL",

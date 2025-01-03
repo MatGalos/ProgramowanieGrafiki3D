@@ -21,7 +21,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -33,7 +34,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -43,7 +44,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-94a036d3745394fb2ab5.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-21b47741460408dc6b5f.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -53,13 +54,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-8772ca03e9da0674a281.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-9804803bda36b79ef69d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -69,8 +70,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						10,
-						15
+						11,
+						16
 					]
 				},
 				{
@@ -100,7 +101,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -115,7 +116,7 @@
 					"source" : "build/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -130,7 +131,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -145,7 +146,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -160,7 +161,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -175,7 +176,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -250,7 +251,7 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -282,6 +283,21 @@
 					[
 						5
 					]
+				},
+				{
+					"build" : "src/Assignments/Resizing",
+					"jsonFile" : "directory-src.Assignments.Resizing-Release-fd5584c2867d70ab3d85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "src/Assignments/Resizing",
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"name" : "Release",
@@ -303,7 +319,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"directoryIndexes" : 
 					[
@@ -312,7 +329,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -325,9 +342,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10,
-						14,
-						15
+						11,
+						15,
+						16
 					]
 				},
 				{
@@ -340,7 +357,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -352,7 +369,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -364,7 +381,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -376,7 +393,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -388,7 +405,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -400,7 +417,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -460,7 +477,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -485,6 +502,18 @@
 					"targetIndexes" : 
 					[
 						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "Resizing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
 					]
 				}
 			],
@@ -531,6 +560,13 @@
 					"jsonFile" : "target-Pyramid-Release-454893a07513708722bb.json",
 					"name" : "Pyramid",
 					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "Resizing::@80b58e68574a65d33c27",
+					"jsonFile" : "target-Resizing-Release-3a576da3cc2f4be3f07a.json",
+					"name" : "Resizing",
+					"projectIndex" : 15
 				},
 				{
 					"directoryIndex" : 14,

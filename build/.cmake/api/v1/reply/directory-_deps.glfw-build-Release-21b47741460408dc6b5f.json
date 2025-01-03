@@ -72,11 +72,7 @@
 			[
 				{
 					"id" : "glfw::@fa9f4482d3a2b070f206",
-<<<<<<<< Updated upstream:build/.cmake/api/v1/reply/directory-_deps.glfw-build-Release-94a036d3745394fb2ab5.json
-					"index" : 10
-========
-					"index" : 6
->>>>>>>> Stashed changes:build/.cmake/api/v1/reply/directory-_deps.glfw-build-Release-6a5b56a56fab401a0a94.json
+					"index" : 11
 				}
 			],
 			"paths" : 
