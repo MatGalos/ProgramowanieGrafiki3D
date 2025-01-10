@@ -2,7 +2,6 @@
 // Created by pbialas on 25.09.2020.
 //
 
-
 #include "app.h"
 #include <vector>
 #include "spdlog/spdlog.h"
@@ -66,73 +65,70 @@ void SimpleShapeApplication::init() {
 
     PVM = T;
     GLuint pvm_buffer_handle;
-    OGL_CALL(glGenBuffers(1, &pvm_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, pvm_buffer_handle));
-    OGL_CALL(glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(GLfloat), 0, GL_STATIC_DRAW));
-    OGL_CALL(glBindBufferBase(GL_UNIFORM_BUFFER, 1, pvm_buffer_handle));
-    OGL_CALL(glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(PVM), &PVM));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, 0));
+    glGenBuffers(1, &pvm_buffer_handle);
+    glBindBuffer(GL_UNIFORM_BUFFER, pvm_buffer_handle);
+    glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(GLfloat), 0, GL_STATIC_DRAW);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, pvm_buffer_handle);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(PVM), &PVM);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     GLuint m_buffer_handle;
     float strength = 0.5f;
     float color[3] = { 1,0,0 };
-    OGL_CALL(glGenBuffers(1, &m_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, m_buffer_handle));
-    OGL_CALL(glBufferData(GL_UNIFORM_BUFFER, 8 * sizeof(GLfloat), 0, GL_STATIC_DRAW));
-    OGL_CALL(glBindBufferBase(GL_UNIFORM_BUFFER, 0, m_buffer_handle));
-    OGL_CALL(glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(strength), &strength));
-    OGL_CALL(glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), sizeof(color), color));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, 0));
+    glGenBuffers(1, &m_buffer_handle);
+    glBindBuffer(GL_UNIFORM_BUFFER, m_buffer_handle);
+    glBufferData(GL_UNIFORM_BUFFER, 8 * sizeof(GLfloat), 0, GL_STATIC_DRAW);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 0, m_buffer_handle);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(strength), &strength);
+    glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), sizeof(color), color);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     GLuint v_buffer_handle;
-    OGL_CALL(glGenBuffers(1, &v_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle));
-    OGL_CALL(glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW));
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, 0));
+    glGenBuffers(1, &v_buffer_handle);
+    glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
+    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     GLuint i_buffer_handle;
-    OGL_CALL(glGenBuffers(1, &i_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle));
-    OGL_CALL(glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(GLshort), indices.data(), GL_STATIC_DRAW));
-    OGL_CALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0));
+    glGenBuffers(1, &i_buffer_handle);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(GLshort), indices.data(), GL_STATIC_DRAW);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
-    OGL_CALL(glGenVertexArrays(1, &vao_));
-    OGL_CALL(glBindVertexArray(vao_));
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle));
-    OGL_CALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle));
+    glGenVertexArrays(1, &vao_);
+    glBindVertexArray(vao_);
+    glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
 
-    OGL_CALL(glEnableVertexAttribArray(0));
-    OGL_CALL(glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat),
-        reinterpret_cast<GLvoid*>(0)));
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat),
+        reinterpret_cast<GLvoid*>(0));
 
     // <FOR COLOR> <NOT NEEDED NOW>
-    OGL_CALL(glEnableVertexAttribArray(1));
-    OGL_CALL(glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat),
-        reinterpret_cast<GLvoid*>(3 * sizeof(GLfloat))));
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat),
+        reinterpret_cast<GLvoid*>(3 * sizeof(GLfloat)));
 
-    OGL_CALL(glBindBuffer(GL_ARRAY_BUFFER, 0));
-    OGL_CALL(glBindVertexArray(0));
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindVertexArray(0);
 
-    OGL_CALL(glClearColor(0.81f, 0.81f, 0.8f, 1.0f));
+    glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
 
     auto [w, h] = frame_buffer_size();
-    OGL_CALL(glViewport(0, 0, w, h));
+    glViewport(0, 0, w, h);
 
-    OGL_CALL(glUseProgram(program));
+    glUseProgram(program);
     GLuint modIndex = glGetUniformBlockIndex(program, "Modifier");
-glUniformBlockBinding(program, modIndex, 0);
+        glUniformBlockBinding(program, modIndex, 0);
 
-GLuint transIndex = glGetUniformBlockIndex(program, "Transformations");
-glUniformBlockBinding(program, transIndex, 1);
-
+    GLuint transIndex = glGetUniformBlockIndex(program, "Transformations");
+        glUniformBlockBinding(program, transIndex, 1);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
-
-    
 }
 
 void SimpleShapeApplication::frame() {
-    OGL_CALL(glBindVertexArray(vao_));
-    OGL_CALL(glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, 0));
-    OGL_CALL(glBindVertexArray(0));
+    glBindVertexArray(vao_);
+    glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, 0);
+    glBindVertexArray(0);
 }

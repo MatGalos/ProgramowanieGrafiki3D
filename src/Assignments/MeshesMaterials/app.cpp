@@ -2,7 +2,6 @@
 // Created by pbialas on 25.09.2020.
 //
 
-
 #include "app.h"
 #include <vector>
 #include "spdlog/spdlog.h"
@@ -71,11 +70,11 @@ void SimpleShapeApplication::init() {
     camera()->look_at(camera_position, zero, up_vector);
     camera()->perspective(fov, aspect, near, far);
 
-    OGL_CALL(glGenBuffers(1, &u_pvm_buffer_));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_));
-    OGL_CALL(glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(GLfloat), 0, GL_STATIC_DRAW));
-    OGL_CALL(glBindBufferBase(GL_UNIFORM_BUFFER, 1, u_pvm_buffer_));
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, 0));
+    glGenBuffers(1, &u_pvm_buffer_);
+    glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
+    glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(GLfloat), 0, GL_STATIC_DRAW);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, u_pvm_buffer_);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     auto vertices_size = sizeof(vertices[0]) * vertices.size();
     pyramid->allocate_vertex_buffer(vertices_size, GL_STATIC_DRAW);
@@ -92,21 +91,16 @@ void SimpleShapeApplication::init() {
     pyramid->add_submesh(9, 12, new xe::ColorMaterial(glm::vec4(glm::vec3(0, 1, 0), 1)));
     pyramid->add_submesh(12, 15, new xe::ColorMaterial(glm::vec4(glm::vec3(0, 0, 1), 1)));
     pyramid->add_submesh(15, 18, new xe::ColorMaterial(glm::vec4(glm::vec3(1, 1, 0), 1)));
-
     add_submesh(pyramid);
-
-    OGL_CALL(glClearColor(0.81f, 0.81f, 0.8f, 1.0f));
-
-    OGL_CALL(glViewport(0, 0, w, h));
-
-    OGL_CALL(glUseProgram(program));
+    glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
+    glViewport(0, 0, w, h);
+    glUseProgram(program);
+    
     GLuint modIndex = glGetUniformBlockIndex(program, "Modifier");
-glUniformBlockBinding(program, modIndex, 0);
-
-GLuint transIndex = glGetUniformBlockIndex(program, "Transformations");
-glUniformBlockBinding(program, transIndex, 1);
-
- glEnable(GL_DEPTH_TEST);
+        glUniformBlockBinding(program, modIndex, 0);
+    GLuint transIndex = glGetUniformBlockIndex(program, "Transformations");
+        glUniformBlockBinding(program, transIndex, 1);
+    glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
 }
 
@@ -115,7 +109,6 @@ void SimpleShapeApplication::frame() {
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
-
     for (auto m : meshes_)
         m->draw();
 }
@@ -128,18 +121,14 @@ void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
 
 void SimpleShapeApplication::mouse_button_callback(int button, int action, int mods) {
     Application::mouse_button_callback(button, action, mods);
-
     if (controler_) {
         double x, y;
         glfwGetCursorPos(window_, &x, &y);
-
         if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
             controler_->LMB_pressed(x, y);
-
         if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_RELEASE)
             controler_->LMB_released(x, y);
     }
-
 }
 
 void SimpleShapeApplication::cursor_position_callback(double x, double y) {

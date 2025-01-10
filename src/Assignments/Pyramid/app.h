@@ -22,16 +22,10 @@ public:
 
     void frame() override;
 
-    //void framebuffer_resize_callback(int w, int h) override;
-
     void scroll_callback(double xoffset, double yoffset) override {
          Application::scroll_callback(xoffset, yoffset);
          camera()->zoom(yoffset / 30.0f);
     }
-
-    //virtual void cursor_position_callback(double x, double y) override;
-
-    //virtual void mouse_button_callback(int button, int action, int mods) override;
 
     void set_controler(CameraControler *controler) { controler_ = controler; }
 
