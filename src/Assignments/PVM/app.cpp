@@ -45,40 +45,6 @@ void SimpleShapeApplication::init() {
         exit(-1);
     }
 
-    GLuint uniform_buffer_handle;
-    glGenBuffers(1, &uniform_buffer_handle);
-    glBindBuffer(GL_UNIFORM_BUFFER, uniform_buffer_handle);
-    glBufferData(GL_UNIFORM_BUFFER, 8*sizeof(float), NULL, GL_STATIC_DRAW);
-
-    float strength = 0.75;
-    float mix_color[3] = {1.0, 1.0, 1.0};
-
-    glBindBufferBase(GL_UNIFORM_BUFFER, 0, uniform_buffer_handle);
-    glBufferSubData(GL_UNIFORM_BUFFER, 0, 4*sizeof(float), &strength);
-    glBufferSubData(GL_UNIFORM_BUFFER, 4*sizeof(float), 4*sizeof(float), mix_color);
-
-    GLuint transformation;
-    glGenBuffers(1, &transformation);
-    glBindBuffer(GL_UNIFORM_BUFFER, transformation);
-    glBufferData(GL_UNIFORM_BUFFER, 64, nullptr, GL_STATIC_DRAW);
-    glBindBufferBase(GL_UNIFORM_BUFFER, 1, transformation);
-
-    glm::mat4 model = glm::mat4(1.0f);
-    glm::mat4 view = glm::lookAt(
-            glm::vec3(0.0f, 0.0f, 1.0f),             
-            glm::vec3(0.0f, 0.0f, 0.0f),           
-            glm::vec3(0.0f, 0.0f, 0.0f));            
-
-    glm::mat4 projection = glm::perspective(
-            glm::radians(90.0f),                    
-            0.2f,                                          
-            0.1f,                                          
-            100.0f);                                         
-
-    glm::mat4 PVM = projection * view * model;
-
-    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
-
     // A vector containing the x,y,z vertex coordinates for the triangle.
     std::vector<GLfloat> vertices = {
             // roof
@@ -110,6 +76,40 @@ void SimpleShapeApplication::init() {
         1,2,3,
         1,3,4
     };
+
+    glm::mat4 PVM(1.0f);
+    glm::mat4 M(1.0);
+    glm::vec3 camera_position = { 0,0,1 };
+    glm::vec3 zero = { 0,1,2 };
+    glm::vec3 up_vector = { 0,1,0 };
+    glm::mat4 V;
+    glm::mat4 P;
+    V = glm::lookAt(camera_position, zero, up_vector);
+    P = glm::perspective(1.0 * glm::radians(90.0f), 1.0 * frame_buffer_size().first / frame_buffer_size().second, 0.1, 20.0);
+
+    PVM = P * V * M;
+
+    glm::mat4 T = glm::translate(PVM, glm::vec3(0, 0, 0));
+
+    PVM = T;
+    GLuint pvm_buffer_handle;
+    glGenBuffers(1, &pvm_buffer_handle);
+    glBindBuffer(GL_UNIFORM_BUFFER, pvm_buffer_handle);
+    glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(GLfloat), 0, GL_STATIC_DRAW);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, pvm_buffer_handle);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(PVM), &PVM);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
+
+    GLuint m_buffer_handle;
+    float strength = 0.25f;
+    float color[3] = { 0,1,0 };
+    glGenBuffers(1, &m_buffer_handle);
+    glBindBuffer(GL_UNIFORM_BUFFER, m_buffer_handle);
+    glBufferData(GL_UNIFORM_BUFFER, 8 * sizeof(GLfloat), 0, GL_STATIC_DRAW);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 0, m_buffer_handle);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(strength), &strength);
+    glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), sizeof(color), color);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     GLuint index_buffer_handle;
     glGenBuffers(1, &index_buffer_handle);
@@ -153,6 +153,11 @@ void SimpleShapeApplication::init() {
     glViewport(0, 0, w, h);
 
     glUseProgram(program);
+    GLuint modIndex = glGetUniformBlockIndex(program, "Modifier");
+        glUniformBlockBinding(program, modIndex, 0);
+
+    GLuint transIndex = glGetUniformBlockIndex(program, "Transformations");
+        glUniformBlockBinding(program, transIndex, 1);
 }
 
 //This functions is called every frame and does the actual rendering.

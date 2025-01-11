@@ -54,7 +54,7 @@ void SimpleShapeApplication::init() {
     glBindBuffer(GL_UNIFORM_BUFFER, uniform_buffer_handle2);
     glBufferData(GL_UNIFORM_BUFFER, 16*sizeof(float), NULL, GL_STATIC_DRAW);
 
-    float theta = 1.0*glm::pi<float>()/1.0f;//30 degrees
+    float theta = 1.0*glm::pi<float>()/6.0f;//30 degrees
     auto cs = std::cos(theta);
     auto ss = std::sin(theta);  
     glm::mat2 rot{cs,ss,-ss,cs};
