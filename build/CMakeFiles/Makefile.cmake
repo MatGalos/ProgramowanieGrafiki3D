@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/PVM/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Pyramid/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Resizing/CMakeLists.txt"
+  "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Textures/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Uniforms/CMakeLists.txt"
   "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Zoom/CMakeLists.txt"
@@ -132,6 +133,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Assignments/Zoom/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/CameraMovement/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Assignments/MeshesMaterials/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Assignments/Textures/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -157,4 +159,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Assignments/Zoom/CMakeFiles/Zoom.dir/DependInfo.cmake"
   "src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/DependInfo.cmake"
   "src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/DependInfo.cmake"
+  "src/Assignments/Textures/CMakeFiles/Textures.dir/DependInfo.cmake"
   )

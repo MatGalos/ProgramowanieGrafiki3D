@@ -25,7 +25,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -37,7 +38,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -47,7 +48,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-1e4ace488a7d57857e8b.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-7341885270af4afedbd2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -57,13 +58,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						18
+						19
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-2961d8705e968688dbe7.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-77a0eab918a11beed08c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -73,8 +74,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						14,
-						19
+						15,
+						20
 					]
 				},
 				{
@@ -104,7 +105,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -119,7 +120,7 @@
 					"source" : "build/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
@@ -134,7 +135,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -149,7 +150,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -164,7 +165,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						20
+						21
 					]
 				},
 				{
@@ -179,7 +180,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -194,7 +195,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -254,7 +255,7 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -314,7 +315,7 @@
 					"source" : "src/Assignments/Zoom",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -346,6 +347,21 @@
 					[
 						4
 					]
+				},
+				{
+					"build" : "src/Assignments/Textures",
+					"jsonFile" : "directory-src.Assignments.Textures-Release-c4a066633018d0f8e4c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "src/Assignments/Textures",
+					"targetIndexes" : 
+					[
+						8
+					]
 				}
 			],
 			"name" : "Release",
@@ -371,7 +387,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					],
 					"directoryIndexes" : 
 					[
@@ -380,7 +397,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -393,9 +410,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14,
-						18,
-						19
+						15,
+						19,
+						20
 					]
 				},
 				{
@@ -408,7 +425,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -420,7 +437,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
@@ -432,7 +449,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -444,7 +461,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -456,7 +473,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						20
+						21
 					]
 				},
 				{
@@ -468,7 +485,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -480,7 +497,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -528,7 +545,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -576,7 +593,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -601,6 +618,18 @@
 					"targetIndexes" : 
 					[
 						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "Textures",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
 					]
 				}
 			],
@@ -663,6 +692,13 @@
 					"projectIndex" : 15
 				},
 				{
+					"directoryIndex" : 21,
+					"id" : "Textures::@443935110c530755700f",
+					"jsonFile" : "target-Textures-Release-11c161ee9f06598e2535.json",
+					"name" : "Textures",
+					"projectIndex" : 19
+				},
+				{
 					"directoryIndex" : 10,
 					"id" : "Triangle::@ee163803f4c0a4b34178",
 					"jsonFile" : "target-Triangle-Release-0eda99d845c2af88d0c5.json",
@@ -714,7 +750,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "glm::@ce54d98d7b326a3e12a8",
-					"jsonFile" : "target-glm-Release-f96589f17b31aa6e66a0.json",
+					"jsonFile" : "target-glm-Release-84881cc0c7bcc32f256a.json",
 					"name" : "glm",
 					"projectIndex" : 2
 				},
@@ -728,7 +764,7 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "spdlog::@eb35cfce7893ccfeff1e",
-					"jsonFile" : "target-spdlog-Release-955a8c0041a045dacb77.json",
+					"jsonFile" : "target-spdlog-Release-6471e5a30b8b42a43193.json",
 					"name" : "spdlog",
 					"projectIndex" : 3
 				},

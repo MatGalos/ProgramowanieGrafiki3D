@@ -430,6 +430,9 @@ GLM_ENABLE_SIMD_AVX:BOOL=OFF
 //Enable AVX2 optimizations
 GLM_ENABLE_SIMD_AVX2:BOOL=OFF
 
+//Enable ARM NEON optimizations
+GLM_ENABLE_SIMD_NEON:BOOL=OFF
+
 //Enable SSE2 optimizations
 GLM_ENABLE_SIMD_SSE2:BOOL=OFF
 
@@ -579,6 +582,10 @@ SPDLOG_FMT_EXTERNAL:BOOL=OFF
 //Use external fmt header-only library instead of bundled
 SPDLOG_FMT_EXTERNAL_HO:BOOL=OFF
 
+//Use the unlocked variant of fwrite. Leave this on unless your
+// libc doesn't have it
+SPDLOG_FWRITE_UNLOCKED:BOOL=ON
+
 //Generate the install target
 SPDLOG_INSTALL:BOOL=OFF
 
@@ -622,6 +629,15 @@ SPDLOG_WCHAR_FILENAMES:BOOL=OFF
 
 //non supported option
 SPDLOG_WCHAR_SUPPORT:BOOL=OFF
+
+//Value Computed by CMake
+Textures_BINARY_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Textures
+
+//Value Computed by CMake
+Textures_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Textures_SOURCE_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Textures
 
 //Value Computed by CMake
 Triangle_BINARY_DIR:STATIC=/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Triangle
@@ -819,7 +835,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJC_COMPILER

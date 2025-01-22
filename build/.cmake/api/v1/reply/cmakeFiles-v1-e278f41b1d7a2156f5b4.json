@@ -569,6 +569,9 @@
 		},
 		{
 			"path" : "src/Assignments/MeshesMaterials/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/Textures/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
