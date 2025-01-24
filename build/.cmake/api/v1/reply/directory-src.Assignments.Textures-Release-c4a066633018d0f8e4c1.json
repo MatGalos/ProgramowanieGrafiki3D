@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "src/Assignments/Triangle",
-		"source" : "src/Assignments/Triangle"
+		"build" : "src/Assignments/Textures",
+		"source" : "src/Assignments/Textures"
 	}
 }

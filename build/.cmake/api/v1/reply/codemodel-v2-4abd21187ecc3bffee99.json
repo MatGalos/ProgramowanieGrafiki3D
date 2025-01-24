@@ -174,21 +174,6 @@
 					]
 				},
 				{
-					"build" : "src/Assignments/Triangle",
-					"jsonFile" : "directory-src.Assignments.Triangle-Release-9c2d0280c7fefcbc75ca.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.15"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 8,
-					"source" : "src/Assignments/Triangle",
-					"targetIndexes" : 
-					[
-						1
-					]
-				},
-				{
 					"build" : "src/Assignments/House",
 					"jsonFile" : "directory-src.Assignments.House-Release-0fa79544065fe2e55039.json",
 					"minimumCMakeVersion" : 
@@ -196,11 +181,26 @@
 						"string" : "3.15"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 9,
+					"projectIndex" : 8,
 					"source" : "src/Assignments/House",
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"build" : "src/Assignments/Textures",
+					"jsonFile" : "directory-src.Assignments.Textures-Release-c4a066633018d0f8e4c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "src/Assignments/Textures",
+					"targetIndexes" : 
+					[
+						1
 					]
 				}
 			],
@@ -323,11 +323,11 @@
 					[
 						10
 					],
-					"name" : "MeshesMaterials",
+					"name" : "House",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						0
 					]
 				},
 				{
@@ -335,29 +335,29 @@
 					[
 						11
 					],
-					"name" : "House",
+					"name" : "Textures",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 10,
 					"id" : "House::@a57c938c6b5fe80120df",
 					"jsonFile" : "target-House-Release-af58e2774ca2e4b5922d.json",
 					"name" : "House",
-					"projectIndex" : 9
+					"projectIndex" : 8
 				},
 				{
-					"directoryIndex" : 10,
-					"id" : "MeshesMaterials::@ee163803f4c0a4b34178",
-					"jsonFile" : "target-MeshesMaterials-Release-a17350a0901afc9b8a9b.json",
-					"name" : "MeshesMaterials",
-					"projectIndex" : 8
+					"directoryIndex" : 11,
+					"id" : "Textures::@443935110c530755700f",
+					"jsonFile" : "target-Textures-Release-2de1b3aabc4226db7ee4.json",
+					"name" : "Textures",
+					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 6,
@@ -390,7 +390,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "glm::@ce54d98d7b326a3e12a8",
-					"jsonFile" : "target-glm-Release-16def12788a71f6f92b4.json",
+					"jsonFile" : "target-glm-Release-84881cc0c7bcc32f256a.json",
 					"name" : "glm",
 					"projectIndex" : 2
 				},
@@ -404,7 +404,7 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "spdlog::@eb35cfce7893ccfeff1e",
-					"jsonFile" : "target-spdlog-Release-955a8c0041a045dacb77.json",
+					"jsonFile" : "target-spdlog-Release-6471e5a30b8b42a43193.json",
 					"name" : "spdlog",
 					"projectIndex" : 3
 				},

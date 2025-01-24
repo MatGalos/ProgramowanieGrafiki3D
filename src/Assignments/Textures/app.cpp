@@ -138,18 +138,11 @@ void SimpleShapeApplication::init() {
     pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 5 * sizeof(vertices[0]), 0);
     pyramid->vertex_attrib_pointer(1, 2, GL_FLOAT, 5 * sizeof(vertices[0]), 3 * sizeof(GLfloat));
 
-    // Colours based on pyramid from CameraMovement assignment, not Textures (pink > grey)
-    pyramid->add_submesh(0, 6, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));  // base == 2 triangles == 6 vertices
-    pyramid->add_submesh(6, 9, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 0.f, 0.f), 1.f)));  // side == 1 triangle == 3 vertices
-    pyramid->add_submesh(9, 12, new xe::ColorMaterial(glm::vec4(glm::vec3(0.f, 1.f, 0.f), 1.f)));
-    pyramid->add_submesh(12, 15, new xe::ColorMaterial(glm::vec4(glm::vec3(0.f, 0.f, 1.f), 1.f)));
-    pyramid->add_submesh(15, 18, new xe::ColorMaterial(glm::vec4(glm::vec3(1.f, 1.f, 0.f), 1.f)));
-
     // Using texture
-    // for (int i = 0; i < indices.size(); i += 3)
-    // {
-    //     pyramid->add_submesh(i, i+3, new xe::ColorMaterial(glm::vec4(1.f), texture_handle));
-    // }
+     for (int i = 0; i < indices.size(); i += 3)
+     {
+         pyramid->add_submesh(i, i+3, new xe::ColorMaterial(glm::vec4(1.f), texture_handle));
+     }
 
     add_submesh(pyramid);
 

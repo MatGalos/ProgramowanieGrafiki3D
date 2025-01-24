@@ -2070,6 +2070,18 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "GLM_ENABLE_SIMD_NEON",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ARM NEON optimizations"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "GLM_ENABLE_SIMD_SSE2",
 			"properties" : 
 			[
@@ -2142,18 +2154,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "GLM_TEST_ENABLE_SIMD_NEON",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable ARM NEON optimizations"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "Graphics3DCode_BINARY_DIR",
 			"properties" : 
 			[
@@ -2188,6 +2188,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie"
+		},
+		{
+			"name" : "HAVE_FWRITE_UNLOCKED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have symbol fwrite_unlocked"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
 		},
 		{
 			"name" : "House_BINARY_DIR",
@@ -2530,6 +2542,18 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "SPDLOG_FWRITE_UNLOCKED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use the unlocked variant of fwrite. Leave this on unless your libc doesn't have it"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
 			"name" : "SPDLOG_INSTALL",
 			"properties" : 
 			[
@@ -2696,6 +2720,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "OFF"
+		},
+		{
+			"name" : "Textures_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/build/src/Assignments/Textures"
+		},
+		{
+			"name" : "Textures_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Textures_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Textures"
 		},
 		{
 			"name" : "XeEngine_BINARY_DIR",

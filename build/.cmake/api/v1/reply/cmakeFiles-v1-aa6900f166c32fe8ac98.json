@@ -521,6 +521,11 @@
 			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake"
+		},
+		{
 			"path" : "src/Application/CMakeLists.txt"
 		},
 		{
@@ -533,10 +538,10 @@
 			"path" : "src/Engine/CMakeLists.txt"
 		},
 		{
-			"path" : "src/Assignments/Triangle/CMakeLists.txt"
+			"path" : "src/Assignments/House/CMakeLists.txt"
 		},
 		{
-			"path" : "src/Assignments/House/CMakeLists.txt"
+			"path" : "src/Assignments/Textures/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -292,19 +292,6 @@ engine/fast:
 .PHONY : engine/fast
 
 #=============================================================================
-# Target rules for targets named MeshesMaterials
-
-# Build rule for target.
-MeshesMaterials: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MeshesMaterials
-.PHONY : MeshesMaterials
-
-# fast build rule for target.
-MeshesMaterials/fast:
-	$(MAKE) $(MAKESILENT) -f src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build.make src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir/build
-.PHONY : MeshesMaterials/fast
-
-#=============================================================================
 # Target rules for targets named House
 
 # Build rule for target.
@@ -316,6 +303,19 @@ House: cmake_check_build_system
 House/fast:
 	$(MAKE) $(MAKESILENT) -f src/Assignments/House/CMakeFiles/House.dir/build.make src/Assignments/House/CMakeFiles/House.dir/build
 .PHONY : House/fast
+
+#=============================================================================
+# Target rules for targets named Textures
+
+# Build rule for target.
+Textures: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Textures
+.PHONY : Textures
+
+# fast build rule for target.
+Textures/fast:
+	$(MAKE) $(MAKESILENT) -f src/Assignments/Textures/CMakeFiles/Textures.dir/build.make src/Assignments/Textures/CMakeFiles/Textures.dir/build
+.PHONY : Textures/fast
 
 src/3rdParty/glad/glad_4_1/glad/src/gl.o: src/3rdParty/glad/glad_4_1/glad/src/gl.c.o
 .PHONY : src/3rdParty/glad/glad_4_1/glad/src/gl.o
@@ -356,7 +356,7 @@ help:
 	@echo "... uninstall"
 	@echo "... update_mappings"
 	@echo "... House"
-	@echo "... MeshesMaterials"
+	@echo "... Textures"
 	@echo "... application"
 	@echo "... engine"
 	@echo "... glad"

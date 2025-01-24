@@ -40,13 +40,13 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 95,
+				"line" : 96,
 				"parent" : 2
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 96,
+				"line" : 97,
 				"parent" : 2
 			},
 			{
@@ -643,15 +643,15 @@
 				418,
 				419,
 				420,
-				421
+				421,
+				422,
+				423
 			]
 		},
 		{
 			"name" : "SIMD Files",
 			"sourceIndexes" : 
 			[
-				422,
-				423,
 				424,
 				425,
 				426,
@@ -659,7 +659,9 @@
 				428,
 				429,
 				430,
-				431
+				431,
+				432,
+				433
 			]
 		}
 	],
@@ -2418,6 +2420,11 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "build/_deps/glm-src/glm/gtx/structured_bindings.inl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
 			"path" : "build/_deps/glm-src/glm/gtx/texture.inl",
 			"sourceGroupIndex" : 6
 		},
@@ -2729,6 +2736,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "build/_deps/glm-src/glm/gtx/string_cast.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/glm-src/glm/gtx/structured_bindings.hpp",
 			"sourceGroupIndex" : 6
 		},
 		{

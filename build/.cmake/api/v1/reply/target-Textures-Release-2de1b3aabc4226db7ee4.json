@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Assignments/Triangle/MeshesMaterials"
+			"path" : "src/Assignments/Textures/Textures"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/Assignments/Triangle/CMakeLists.txt",
+			"src/Assignments/Textures/CMakeLists.txt",
 			"src/XeEngine/CMakeLists.txt",
 			"build/_deps/glfw-src/src/CMakeLists.txt",
 			"CMakeLists.txt"
@@ -131,11 +131,11 @@
 				},
 				{
 					"backtrace" : 10,
-					"define" : "PROJECT_DIR=\"/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Triangle\""
+					"define" : "PROJECT_DIR=\"/Users/mateuszgalos/uczelnia/Programowanie grafiki 3D zaliczenie/src/Assignments/Textures\""
 				},
 				{
 					"backtrace" : 10,
-					"define" : "PROJECT_NAME=\"MeshesMaterials\""
+					"define" : "PROJECT_NAME=\"Textures\""
 				},
 				{
 					"backtrace" : 11,
@@ -232,7 +232,7 @@
 			"id" : "xe-engine::@6de0204676fa90e31894"
 		}
 	],
-	"id" : "MeshesMaterials::@ee163803f4c0a4b34178",
+	"id" : "Textures::@443935110c530755700f",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -321,12 +321,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "MeshesMaterials",
-	"nameOnDisk" : "MeshesMaterials",
+	"name" : "Textures",
+	"nameOnDisk" : "Textures",
 	"paths" : 
 	{
-		"build" : "src/Assignments/Triangle",
-		"source" : "src/Assignments/Triangle"
+		"build" : "src/Assignments/Textures",
+		"source" : "src/Assignments/Textures"
 	},
 	"sourceGroups" : 
 	[
@@ -358,18 +358,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/Triangle/main.cpp",
+			"path" : "src/Assignments/Textures/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Assignments/Triangle/app.h",
+			"path" : "src/Assignments/Textures/app.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/Triangle/app.cpp",
+			"path" : "src/Assignments/Textures/app.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
